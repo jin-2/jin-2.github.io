@@ -9,29 +9,29 @@ date:   2015-09-04 14:15:00
 > ‘CSS를 확장한 언어’인 Sass는 CSS의 부족한 부분을 채워주는 강력한 도구입니다. 재사용 가능한 모듈을 활용해서 생산성을 높이고 편리하게 유지보수할 수 있습니다. 압축된 스타일 형식으로 출력파일을 만들어서 웹사이트의 성능을 최적화할 수 있습니다. 
 > 야무(지훈)
 
-**Sass, Less, Stylus 중에서 Sass를 사용하는 이유는?**
+**Sass, Less, Stylus 중에서 Sass를 사용하는 이유는?**  
  - Sass > Less > Stylus 순으로 점점 단순해지는 과정으로 국내 사용자에게 점점 더 이해하기 어렵다. (특히 Stylus)  
 - 역사가 탄탄하다.  
 - 버전관리가 잘된다.  
 
-**Sass가 왜 생겼을까?**
--CSS는 단순 반복 > 언어의 변화 > 스크립팅 > 자바스크립트 접목 > 벤더프리픽스… 등 체크해야 할 것이 많아짐 > 기계가 해결해야 함
+**Sass가 왜 생겼을까?**  
+ - CSS는 단순 반복 > 언어의 변화 > 스크립팅 > 자바스크립트 접목 > 벤더프리픽스… 등 체크해야 할 것이 많아짐 > 기계가 해결해야 함
 
-**Ruby Sass or Node Sass**
-- 처리속도는 Node Sass가 더빠르다.
-- 기능 면에서는 Ruby Sass가 더 다양하다.
+**Ruby Sass or Node Sass**  
+ - 처리속도는 Node Sass가 더빠르다.  
+- 기능 면에서는 Ruby Sass가 더 다양하다.  
 
-###Ruby Sass Install-Window
-*Ruby와 Sass를 설치**
-[Ruby 설치(환경설정](http://rubyinstaller.org/downloads/)
-- 32bit, 64bit 확인
-- 설치 중 □ add ruby executables to your PATH 체크
+###Ruby Sass Install-Window  
+*Ruby와 Sass를 설치**  
+[Ruby 설치(환경설정](http://rubyinstaller.org/downloads/)  
+ - 32bit, 64bit 확인  
+- 설치 중 □ add ruby executables to your PATH 체크  
 
-[Git bash 설치(선택사항)](http://git-scm.com/)
-- simmple context menu 체크(우클릭 메뉴추가 할 때)
-- use git from the windows command ( bash 이외에 커맨드 창 쓸거면 체크)
+[Git bash 설치(선택사항)](http://git-scm.com/)  
+ - simmple context menu 체크(우클릭 메뉴추가 할 때)  
+- use git from the windows command ( bash 이외에 커맨드 창 쓸거면 체크)  
 
-###Sass cmd에서 설치하기
+###Sass cmd에서 설치하기  
 {% highlight ruby %}
 Install sass
 gem install sass
@@ -40,33 +40,34 @@ gem install sass
 sass -v
 {% endhighlight %}
 
-###Sass파일을 CSS파일로 변환하는 과정 → Preprocessing
-**한개의 파일만 변환
+###Sass파일을 CSS파일로 변환하는 과정 → Preprocessing  
+**한개의 파일만 변환  
 {% highlight ruby %}
 sass input.sass output.sass
 {% endhighlight %}
 
-**여러개 파일이 있는 폴더 변환(sass 폴더 내부의 파일을 css 폴더 내부에 변환/저장)
+**여러개 파일이 있는 폴더 변환(sass 폴더 내부의 파일을 css 폴더 내부에 변환/저장)  
 {% highlight ruby %}
 sass --watch sass:css
 {% endhighlight %}
 
-**Window에서 sass파일에 한글 에러가 날 때
+**Window에서 sass파일에 한글 에러가 날 때  
 {% highlight ruby %}
 sass -watch -E UTF-8 sass:css
 {% endhighlight %}
 
-sass폴더에서 css폴더로 변경사항을 관찰하면서 compressed(nested, expanded, compact, compressed-출력스타일 종류)파일로 변환.
+**sass폴더에서 css폴더로 변경사항을 관찰하면서 compressed(nested, expanded, compact, compressed-출력스타일 종류)파일로 변환.  
 {% highlight ruby %}
 sass --watch -E UTF-8 -t compressed sass:css
 {% endhighlight %}
 
-SCSS ↔ SASS 파일 변환(
-http://www.sasstoscss.com
-http://css2sass.herokuapp.com
+**SCSS ↔ SASS 파일 변환  
+[http://www.sasstoscss.com](http://www.sasstoscss.com)  
+[http://css2sass.herokuapp.com](http://css2sass.herokuapp.com)  
+{% highlight ruby %}
 sass-convert style.scss style.sass
-
-변환종료 ctrl + c
+{% endhighlight %}
+변환종료 **ctrl + c
 
 SASS 작성법
 syntax
