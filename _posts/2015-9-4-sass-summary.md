@@ -9,20 +9,22 @@ date:   2015-09-04 14:15:00
 > ‘CSS를 확장한 언어’인 Sass는 CSS의 부족한 부분을 채워주는 강력한 도구입니다. 재사용 가능한 모듈을 활용해서 생산성을 높이고 편리하게 유지보수할 수 있습니다. 압축된 스타일 형식으로 출력파일을 만들어서 웹사이트의 성능을 최적화할 수 있습니다. 
 > 야무(지훈)
 
-**Sass, Less, Stylus 중에서 Sass를 사용하는 이유는?**  
+###Sass, Less, Stylus 중에서 Sass를 사용하는 이유는?  
  - Sass > Less > Stylus 순으로 점점 단순해지는 과정으로 국내 사용자에게 점점 더 이해하기 어렵다. (특히 Stylus)  
 - 역사가 탄탄하다.  
 - 버전관리가 잘된다.  
 
-**Sass가 왜 생겼을까?**  
+###Sass가 왜 생겼을까?  
  - CSS는 단순 반복 > 언어의 변화 > 스크립팅 > 자바스크립트 접목 > 벤더프리픽스… 등 체크해야 할 것이 많아짐 > 기계가 해결해야 함
 
-**Ruby Sass or Node Sass**  
+###Ruby Sass or Node Sass 
  - 처리속도는 Node Sass가 더빠르다.  
 - 기능 면에서는 Ruby Sass가 더 다양하다.  
 
 ###Ruby Sass Install-Window  
-*Ruby와 Sass를 설치**  
+
+####Ruby와 Sass를 설치  
+
 [Ruby 설치(환경설정](http://rubyinstaller.org/downloads/)  
  - 32bit, 64bit 확인  
 - 설치 중 □ add ruby executables to your PATH 체크  
@@ -31,7 +33,7 @@ date:   2015-09-04 14:15:00
  - simmple context menu 체크(우클릭 메뉴추가 할 때)  
 - use git from the windows command ( bash 이외에 커맨드 창 쓸거면 체크)  
 
-###Sass cmd에서 설치하기  
+####Sass cmd에서 설치하기  
 {% highlight ruby %}
 Install sass
 gem install sass
@@ -41,27 +43,28 @@ sass -v
 {% endhighlight %}
 
 ###Sass파일을 CSS파일로 변환하는 과정 → Preprocessing  
-**한개의 파일만 변환  
+
+####한개의 파일만 변환  
 {% highlight ruby %}
 sass input.sass output.sass
 {% endhighlight %}
 
-**여러개 파일이 있는 폴더 변환(sass 폴더 내부의 파일을 css 폴더 내부에 변환/저장)  
+####여러개 파일이 있는 폴더 변환(sass 폴더 내부의 파일을 css 폴더 내부에 변환/저장)  
 {% highlight ruby %}
 sass --watch sass:css
 {% endhighlight %}
 
-**Window에서 sass파일에 한글 에러가 날 때  
+####Window에서 sass파일에 한글 에러가 날 때  
 {% highlight ruby %}
 sass -watch -E UTF-8 sass:css
 {% endhighlight %}
 
-**sass폴더에서 css폴더로 변경사항을 관찰하면서 compressed(nested, expanded, compact, compressed-출력스타일 종류)파일로 변환.  
+####sass폴더에서 css폴더로 변경사항을 관찰하면서 compressed(nested, expanded, compact, compressed-출력스타일 종류)파일로 변환.  
 {% highlight ruby %}
 sass --watch -E UTF-8 -t compressed sass:css
 {% endhighlight %}
 
-**SCSS ↔ SASS 파일 변환  
+###SCSS ↔ SASS 파일 변환  
 [http://www.sasstoscss.com](http://www.sasstoscss.com)  
 [http://css2sass.herokuapp.com](http://css2sass.herokuapp.com)  
 {% highlight ruby %}
@@ -69,21 +72,27 @@ sass-convert style.scss style.sass
 {% endhighlight %}
 변환종료 **ctrl + c
 
-SASS 작성법
-syntax
-SCSS: CSS 문법과 유사하므로 친숙함
+###SASS 작성법
+
+####syntax
+
+#####SCSS: CSS 문법과 유사하므로 친숙함
+{% highlight ruby %}
 .sytax{
     margin: 0 auto;
     padding-bottom: 20px/5;
 }
+{% endhighlight %}
 
-SASS: {}, ; 등을 사용하지 않는 대신 들여쓰기가 매우 중요
+#####SASS: {}, ; 등을 사용하지 않는 대신 들여쓰기가 매우 중요
+{% highlight ruby %}
 .sytax
     margin: 0 auto
     padding-bottom: 20px/5
+{% endhighlight %}
 
-
-주석
+####주석
+{% highlight ruby %}
 /*
 * 여러 줄 주석의 경우는
 * CSS 컴파일 되어도 주석이 남아 있습니다.
@@ -91,32 +100,41 @@ SASS: {}, ; 등을 사용하지 않는 대신 들여쓰기가 매우 중요
 
 // 한 줄 주석의 경우는 CSS에서 지원하지 않기 때문에 
 // CSS 컴파일 시, 주석이 표시되지 않습니다.
+{% endhighlight %}
 
-중첩규칙
+####중첩규칙
 쓸데없는 CSS 선택자를 남용하지 않고, 적당히 중첩하는게 중요하다.
-	CSS
+
+#####CSS
+{% highlight ruby %}
 #page .container .section{
     margin: 1em 0;
 }
+{% endhighlight %}
 
-SASS
+#####SASS
 #page 
+{% highlight ruby %}
     .container 
         .section
             margin: 1em 0
+{% endhighlight %}
 
 
-
-부모, 참조 선택자(&)
+####부모, 참조 선택자(&)
 앤퍼센트(&) 심볼은 부모를 참조하는 선택자 역할을 수행합니다.
-sass
+
+#####sass
+{% highlight ruby %}
 .radius
     border-radius: 5px
     .ie8 &
         position: relative
         @extend %pie
+{% endhighlight %}
 
-css
+#####css
+{% highlight ruby %}
 .radius{
     border-radius: 5px;
 }
@@ -124,6 +142,7 @@ css
     position: relative;
     behavior: url(/js/front/vendor/PIE.htc);
 }
+{% endhighlight %}
 
 선택자 상속(Selector Inheritance)
 @extend를 사용해 선언된 다른 규칙의 내용을 상속할 수 있습니다.(그룹핑됨)
