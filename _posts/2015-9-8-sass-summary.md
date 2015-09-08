@@ -216,6 +216,7 @@ Scss, Sass 파일 앞에 언더바(_)가 붙어 있으면 이를 CSS로 해석 �
 - **Lists** / 공백, 콤마(,)로 구분되는 목록 (Javascript 배열과 유사), 관련 함수 / 1em 2em 3em 4em | 1px solid red | Helvetica, Sans-Serif
 - **Maps** / 키:값 으로 구성된 그룹 (Javascript 객체와 유사), 관련 함수로 값을 얻을 수 있습니다. / $map: (key1: value1, key2: value2)
 
+
 ####연산(Operations)
 덧셈(+), 뺄셈(-), 곱셈(*), 나눗셈(/), 나머지(%) 등 수학의 연산 결과를 수행할 수 있습니다.
 
