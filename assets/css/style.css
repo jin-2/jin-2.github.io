@@ -183,10 +183,10 @@ a,
 }
 
 ul, ol 	{ margin-bottom:20px; }
-li	{ list-style-position:inside; }
-ol li{ list-style: decimal; }
+ol li{ list-style: decimal; list-style-position:inside; }
 ul ul,
 ol ul{margin-left: 20px;}
+li	{ list-style-position:inside; }
 /* Line Height */
 #post-body, p { line-height:1.7; }
 
