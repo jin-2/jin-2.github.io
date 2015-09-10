@@ -185,6 +185,8 @@ a,
 ul, ol 	{ margin-bottom:20px; }
 li	{ list-style-position:inside; }
 ol li{ list-style: decimal; }
+ul ul,
+ol ul{margin-left: 20px;}
 /* Line Height */
 #post-body, p { line-height:1.7; }
 
