@@ -6,9 +6,9 @@ date:   2015-09-14 18:04:00
 
 **아래 책의 밑줄내용 정리**
 
-> 읽기 좋은 자바스크립트 코딩 기법 Maintainalble JavaScript
-> 니콜라스 카자스
-> O'REILLY 한빛미디어
+> 읽기 좋은 자바스크립트 코딩 기법 Maintainalble JavaScript  
+> 니콜라스 카자스  
+> O'REILLY 한빛미디어  
 > 978-89-7914-988-3
 
 ## part1. 스타일 가이드라인 ##
