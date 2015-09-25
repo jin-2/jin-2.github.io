@@ -11,7 +11,7 @@ layout: with-sidebar
     {% for post in site.posts %}
 
     <article class="post">
-        <div class="post-preview col-xs-10  no-gutter">
+        <div class="post-preview col-xs-12  no-gutter">
             <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
             {{ post.excerpt | truncatewords: 28 }}
@@ -23,9 +23,9 @@ layout: with-sidebar
 
 
         {% if post.show_avatar == true %}
-        <div class=" col-xs-2  no-gutter">
+        <!-- <div class=" col-xs-2  no-gutter">
             <img src="{{ site.baseurl}}/img/{{ post.author_avatar }}.jpg" class="user-icon user-1" alt="user-image">
-        </div>
+        </div> -->
         {% endif %}
     </article>
     {% endfor %}
