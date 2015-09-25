@@ -5,10 +5,12 @@ permalink: /about/
 feature_image: feature-book
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+ 이 블로그는 제가 작업하고 있는 것들을 잊지 않기 위해 기록하는 용도입니다. 
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+책의 밑줄 내용을 옮기기도 하고 새로이 알게 된 것들 여기저기에 흩어져 있는 것들을 이곳에 정리 할 것입니다.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+그리고, 저의 포트폴리오도 담을 생각입니다.(부끄럽지만) 따로 관리하기가 힘들 것 같아서요.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius voluptatum tenetur explicabo, vel, praesentium corrupti repudiandae veniam totam reprehenderit, temporibus delectus possimus provident sint rem ex maiores ratione sunt deserunt.
+정성스레 한자 한자 신중하게 적어보도록 하겠습니다.
+
+이 블로그와 관련된 정보를 공유해 주신다면, [메일](mailto:jmakeaz@gmail.com) 부탁드립니다. >_<
