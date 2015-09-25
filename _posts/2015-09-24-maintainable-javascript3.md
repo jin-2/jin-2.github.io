@@ -6,7 +6,7 @@ categories: js
 author_name : jmaking
 author_url : /author/jmaking
 author_avatar: jmaking
-show_avatar : true
+show_avatar : false
 read_time : 22
 feature_image: feature-tree
 show_related_posts: true
