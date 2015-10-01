@@ -18,9 +18,24 @@ footer_links:
     About: ['About', '/about']
     Writer: ['Writer 2015', '/about']
 
+# 포스트 머리말 기본값 정의
+defaults:
+  -
+    scope:
+      path: "" # 이 빈 문자열은 프로젝트 내의 모든 파일을 의미한다
+      type: "posts" # 과거 Jekyll 2.2 의 `post`.
+    values:
+      layout: "post"
+      author_name : jmaking
+      author_url : /author/jmaking
+      author_avatar: jmaking
+      read_time : 30
+      show_related_posts: true
+      show_avatar : false
 
 # Build settings
 markdown: kramdown
-#http://milanaryal.com/2015/writing-on-github-pages-and-jekyll-using-markdown/
-#kramdown:
-#  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+
+# Sass
+sass:
+    style: compact
