@@ -1,5 +1,5 @@
 ---
-layout: post-sidebar
+layout: post
 date: 2015-09-08
 title: "Summary yamoo9 teacher Sass classes"
 categories: css

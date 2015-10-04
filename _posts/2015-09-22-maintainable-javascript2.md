@@ -1,5 +1,5 @@
 ---
-layout: post-sidebar
+layout: post
 date: 2015-09-22
 title: "summarize the book - Maintainalble JavaScript 2"
 categories: js

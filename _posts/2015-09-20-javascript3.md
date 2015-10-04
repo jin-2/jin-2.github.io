@@ -1,5 +1,5 @@
 ---
-layout: post-sidebar
+layout: post
 date: 2015-09-20
 title: "summarize the book - JavaScript for Web Developers 3"
 categories: js
