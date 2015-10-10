@@ -26,12 +26,12 @@ defaults:
       type: "posts" # 과거 Jekyll 2.2 의 `post`.
     values:
       layout: "post"
-      author_name : jmaking
-      author_url : /author/jmaking
+      author_name: jmaking
+      author_url: /author/jmaking
       author_avatar: jmaking
-      read_time : 30
+      read_time: 30
       show_related_posts: true
-      show_avatar : false
+      show_avatar: false
 
 # Build settings
 markdown: kramdown
@@ -39,3 +39,4 @@ markdown: kramdown
 # Sass
 sass:
     style: compact
+    sourcemap : true
