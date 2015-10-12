@@ -12,7 +12,7 @@ $light-blue : #4761e2
 $base-color : $light-blue
 
 body
-    line-height: 1.65
+    line-height: 1.5
 
 body,
 button,
@@ -54,10 +54,14 @@ h2
     //font-weight: 400
 
 h1
-    +font-size(38)
+    +font-size(30)
+    +breakpoint(sm)
+        +font-size(40)
     //color: #111
 h2
-    +font-size(32)
+    +font-size(22)
+    +breakpoint(sm)
+        +font-size(32)
     &.favorites
         padding: 10px 0
         color: #b3b3b7
@@ -67,16 +71,26 @@ h2
         border-top: solid 1px #dedede
         +font-size(12)
 h3
-    +font-size(26)
+    +font-size(20)
+    +breakpoint(sm)
+        +font-size(26)
 
 h4
-    +font-size(22)
+    +font-size(18)
+    +breakpoint(sm)
+        +font-size(22)
 
 h5
-    +font-size(20)
+    +font-size(18)
+    color: #666
+    +breakpoint(sm)
+        +font-size(20)
+        color: #333337
 
 h6
-    +font-size(18)
+    +font-size(16)
+    +breakpoint(sm)
+        +font-size(18)
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
     font-weight: 600
@@ -102,4 +116,8 @@ ol
     +font-size(16)
 
     li
-        margin: 5px 0
+        margin: .3em 0
+        line-height: 1.3
+
+p + p
+    margin-bottom: 13px

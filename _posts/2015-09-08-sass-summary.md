@@ -148,6 +148,7 @@ square_related: recommend-pineapple
     }
 
 ####선택자 상속(Selector Inheritance)
+
 #####@extend
 @extend를 사용해 선언된 다른 규칙의 내용을 상속할 수 있습니다.(그룹핑됨)
 
@@ -272,6 +273,7 @@ Sass는 변수를 “”내부에서 처리할 수 잇는 보간법을 지원합
     @import url("http://fonts.googleapis.com/css?family=#{$family}");
 
 ####Mixins
+
 #####믹스인(@mixin)
 JS 함수와 흡사한 믹스인은 @mixin으로 모듈을 정의한 후, @include로 호출할 수 있어 재사용이 가능합니다.
 
@@ -320,7 +322,9 @@ $shadows 는 일종의 변수로 믹스인 내부에 전달된 값을 받기에 
 @mixin은 “=”으로, @include는 “+”로 선언/호출이 가능합니다.
 
 ####function
+
 #####컬러 함수 (Color Functions)
+
 ######RGBA 함수
 
     rgb($red, $green, $blue)
