@@ -1,19 +1,19 @@
 ---
 layout: post
 date: 2015-09-20
-title: "summarize the book - JavaScript for Web Developers 3"
+title: "책요약 - JavaScript for Web Developers 3"
 categories: js
 author_name : jmaking
 author_url : /author/jmaking
 author_avatar: jmaking
 show_avatar : false
-read_time : 22
-feature_image: feature-night
+read_time : 10
+feature_image: feature-reed
 show_related_posts: true
-square_related: recommend-night
+square_related: recommend-reed
 ---
 
-**아래 책의 밑줄내용 정리 - 연산자**
+언의어 기초(연산자) 내용 정리
 
 > 자바스크립트 프로그래밍: 프론트엔드 개발자를 위한   
 > 니콜라스 자카스    
@@ -97,6 +97,7 @@ square_related: recommend-night
 **NOT연산자를 연달아 두 개 쓰면 Boolean() 함수를 쓴 것과 마찬가지 효과가 있습니다.** 첫 번째 NOT은 피연산자의 타입에 관계 없이 불리언 값을 반환합니다. 두 번째 NOT은 첫 번째 NOT이 반환한 불리언 값을 부정합니다.
 
 ##### 논리 AND(&&)
+
 | 피연산자 1 | 피연산자 2 |  결과 |
 |:----------:|:----------:|:-----:|
 |    true    |    true    |  true |
@@ -116,6 +117,7 @@ square_related: recommend-night
     console.log(result2); // Uncaught ReferenceError: someUndeclaredVariable is not defined
 
 ##### 논리 OR(||)
+
 | 피연산자 1 | 피연산자 2 |  결과 |
 |:----------:|:----------:|:-----:|
 |    true    |    true    |  true |
@@ -199,6 +201,7 @@ ECMAScript 에서는 연산자를 두 벌로 분리해서 '동일'과 '비동일
 
 ##### 동일(==)과 비동일(!=)
 두 연산자 모두 피연산자를 비교하기 전에 변환합니다. 이런 변환을 종종 '타입 강제'라 부릅니다.
+
 | 표현식            | 값    |
 |-------------------|-------|
 | null == undefined | true  |

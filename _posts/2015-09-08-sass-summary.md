@@ -1,13 +1,13 @@
 ---
 layout: post
 date: 2015-09-08
-title: "Summary yamoo9 teacher Sass classes"
+title: "Sass 기본 사용법"
 categories: css
 author_name : jmaking
 author_url : /author/jmaking
 author_avatar: jmaking
 show_avatar : false
-read_time : 22
+read_time : 20
 feature_image: feature-pineapple
 show_related_posts: true
 square_related: recommend-pineapple
@@ -218,12 +218,12 @@ Scss, Sass 파일 앞에 언더바(_)가 붙어 있으면 이를 CSS로 해석 �
     .note
         color: $point-color // #e0e0e0
 
-####데이터 유형 - Sass는 6가지 데이터 형을 지원합니다.
+####데이터 유형 - Sass는 6가지 데이터 형을터 지원합니다.
 - **Numbers** / 숫자형 / 1.2, 3, 14px
 - **Nulls** / 비어있음
-- **Strings & Colors** / 문자형 / “../images/thumb.jpg” | “Times New Roman” |  Verdana | lightblue | #123456
+- **Strings & Colors** / 문자형 / “../images/thumb.jpg” / “Times New Roman” /  Verdana / lightblue / #123456
 - **Booleans** / 논리형(참, 거짓) / true, false
-- **Lists** / 공백, 콤마(,)로 구분되는 목록 (Javascript 배열과 유사), 관련 함수 / 1em 2em 3em 4em | 1px solid red | Helvetica, Sans-Serif
+- **Lists** / 공백, 콤마(,)로 구분되는 목록 (Javascript 배열과 유사), 관련 함수 / 1em 2em 3em 4em / 1px solid red / Helvetica, Sans-Serif
 - **Maps** / 키:값 으로 구성된 그룹 (Javascript 객체와 유사), 관련 함수로 값을 얻을 수 있습니다. / $map: (key1: value1, key2: value2)
 
 

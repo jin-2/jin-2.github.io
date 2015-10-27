@@ -1,19 +1,19 @@
 ---
 layout: post
 date: 2015-09-20
-title: "summarize the book - JavaScript for Web Developers 2"
+title: "책요약 - JavaScript for Web Developers 2"
 categories: js
 author_name : jmaking
 author_url : /author/jmaking
 author_avatar: jmaking
 show_avatar : false
-read_time : 22
-feature_image: feature-night
+read_time : 7
+feature_image: feature-reed
 show_related_posts: true
-square_related: recommend-night
+square_related: recommend-reed
 ---
 
-**아래 책의 밑줄내용 정리 - 문법, 변수, 데이터 타입**
+언의어 기초(문법, 변수, 데이터 타입) 내용 정리
 
 > 자바스크립트 프로그래밍: 프론트엔드 개발자를 위한   
 > 니콜라스 자카스    
@@ -21,6 +21,7 @@ square_related: recommend-night
 > 978-89-6626-076-8
 
 ## 3장 언어의 기초 ##
+
 ### 3.1 문법 ###
 C 언어, 자바나 펄 등 C와 비슷한 언어에서 차용한 것
 
@@ -59,7 +60,7 @@ typeof 연산자는 때때로 혼란스러운, 하지만 엄밀히 말해 올바
 - 함수를 제외한 객체 또는 null: "object"
 
 #### 3.4.2 undefined 타입
-var를 써서 변수를 정의했지만 초기화하지 않았다면 해당 변수에는 다음과 같이 undefined가 할당됩니다.
+`var`를 써서 변수를 정의했지만 초기화하지 않았다면 해당 변수에는 다음과 같이 undefined가 할당됩니다.
 
 #### 3.4.3 Null 타입
 객체를 사용해야 하지만 해당 객체를 이용할 수 없을 때에는 항상 그 자리에 null이 와야 합니다. 이렇게 하면 **null이 빈 객체를 가리키는 포인터라는 점을 늘 숙지**할 수 있고 undefined와 구별할 수 있게 됩니다.
@@ -85,6 +86,7 @@ Boolean() : 항상 불리언 값을 반환
 - undefined
 
 #### 3.4.5 숫자 타입
+
 ##### 부동소수점 숫자
 0.1과 0.2를 더하면 0.3이 아니라 **0.30000000000000004**를 반환합니다. 이런 반올림 에러 때문에 부동소수점 숫자를 평가하기가 어렵습니다. 따라서 부동소수점 숫자를 평가할 때는 이런 버그를 인지하고 다른 방법을 써야 합니다.
 

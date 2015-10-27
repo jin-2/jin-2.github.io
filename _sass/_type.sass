@@ -115,8 +115,30 @@ ol
     +font-size(16)
 
     li
-        margin: .3em 0
-        line-height: 1.3
+        margin: .5em 0
+        line-height: 1.5
 
 p + p
     margin-bottom: 13px
+
+table
+    margin-bottom: 1em
+    border: 1px solid #cbcbcb
+
+    thead
+        background-color: #e0e0e0
+        color: #000
+
+    th, td
+        padding: 0.5em 1em
+        border: 1px solid #cbcbcb
+        border-width: 0 0 1px 1px
+        +font-size(16)
+
+
+
+    td:first-child, th:first-child
+        border-left-width: 0
+
+    tbody>tr:last-child>td
+        border-bottom-width: 0

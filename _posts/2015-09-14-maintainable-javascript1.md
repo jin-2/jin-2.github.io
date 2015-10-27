@@ -1,26 +1,26 @@
 ---
 layout: post
 date: 2015-09-14
-title: "summarize the book - Maintainalble JavaScript 1"
+title: "책요약 - Maintainalble JavaScript 1"
 categories: js
 author_name : jmaking
 author_url : /author/jmaking
 author_avatar: jmaking
 show_avatar : false
-read_time : 22
-feature_image: feature-tree
+read_time : 10
+feature_image: feature-reed
 show_related_posts: true
-square_related: recommend-tree
+square_related: recommend-reed
 ---
 
-**아래 책의 밑줄내용 정리**
+스타일 가이드라인(들여쓰기, 이름규칙, 리터럴 값)에 대한 내용 정리
 
 > 읽기 좋은 자바스크립트 코딩 기법 Maintainalble JavaScript  
 > 니콜라스 카자스  
 > O'REILLY 한빛미디어  
 > 978-89-7914-988-3
 
-## part1. 스타일 가이드라인 ##
+## part1. 스타일 가이드라인자(1) ##
 
 ### 스타일 가이드라인의 장점 ###
 - **작성자와 관계없이 어떠한 파일이든 다른 개발자가 작업할 수 있습니다.**
@@ -33,6 +33,7 @@ square_related: recommend-tree
 - JSHint(안톤 코발료프)
 
 ### 1.1 들여쓰기 ###
+
 #### 들여쓰기 단계마다 공백 4개 사용을 추천 ####
 - **탭**을 이용한 들여쓰기
 	- 탭을 이용한 들여쓰기는 시스템마다 탭 크기를 다르게 표현한다는 단점이 있다.
@@ -42,6 +43,7 @@ square_related: recommend-tree
 세미콜론을 입력하지 않아도 자바스크립트에서는 **ASI(Automatic Semicolon Insertion) 메커니즘** 덕분에 정상적으로 동작합니다. ASI는 코드에서 세미콜론이 필요한 자리를 찾고 없으면 세미콜론을 넣어주는데, 대부분 정확하게 찾아 문제가 없습니다. 그러나 ASI가 세미콜론을 찾는 규칙은 기억하기 어려울 정도로 복잡하므로 **명시적으로 세미콜론을 넣기를 권장**합니다.
 
 ### 1.3 줄 길이 ###
+
 #### 다음은 일반적으로 추천하는 줄 길이(80자) ####
 - 자바 코딩 규칙에서는 소스 코드의 최대 줄 길이는 80자, 문서화 주석의 경우 70자로 명시했습니다.
 - 안드로이드 코드 스타일 가이드 배포본에는 최대 100자로 명시했습니다. 루비 사용법 가이드(비공식)에서는 최대 80자로 명시했습니다.

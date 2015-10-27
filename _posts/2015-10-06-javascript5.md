@@ -1,19 +1,19 @@
 ---
 layout: post
 date: 2015-10-06
-title: "summarize the book - JavaScript for Web Developers 5"
+title: "책요약 - JavaScript for Web Developers 5"
 categories: js
 author_name: jmaking
 author_url: jmaking
 author_avatar: jmaking
 show_avatar: false
-read_time: 
-feature_image: feature-night
+read_time : 10
+feature_image: feature-reed
 show_related_posts: true
-square_related: recommend-night
+square_related: recommend-reed
 ---
 
-아래 책의 밑줄내용 정리 - 변수와 스코프, 메모리
+변수와 스코프, 메모리 내용 정리
 
 > 자바스크립트 프로그래밍: 프론트엔드 개발자를 위한   
 > 니콜라스 자카스    

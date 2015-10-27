@@ -7,11 +7,10 @@ author_name: jmaking
 author_url: jmaking
 author_avatar: jmaking
 show_avatar: false
-read_time: 
+read_time: 1
 feature_image: feature-check
 show_related_posts: false
-square_related: 
-published: true
+square_related: recommend-check
 ---
 
 공무원연금공단에서 운영하는 골프와 레저를 즐길 수 있는 리조트입니다. 천안, 화성, 남원, 김해, 수안보 지역별로 웹이 구분되어 있습니다. 
