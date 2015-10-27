@@ -4,7 +4,7 @@ date: 2015-10-06
 title: "책요약 - JavaScript for Web Developers 5"
 categories: js
 author_name: jmaking
-author_url: jmaking
+author_url: /author/jmaking
 author_avatar: jmaking
 show_avatar: false
 read_time : 10

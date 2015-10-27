@@ -2,22 +2,25 @@
 layout: author
 title: Author
 permalink: author/jmaking/
-feature_image: feature-sky
+feature_image: feature-stars2
 author_avatar: Jmaking
 author_name: Su-jin Lee
 title: Jmaking
+desc: Joyful, Joyful, Joyful life
+include_cta_btn: true
+cta_text: Post list
+cta_link: /home-alt-2/
+cta_icon: fa-list
 ---
 
-# Su-jin Lee
 
-안녕하세요. 반갑습니다.
-저는 이수진입니다. 
 
-자세한 설명은 천천히 담도록 하겠습니다.
+# Jmaking
 
-> 기업명: TENDENCY  
-> 상장여부: 중소기업 (비상장)  
-> 매출액: 25억  
-> 직원수: 15명  
-> 주사업: 웹에이전시, 웹디자인, 소프트웨어개발, 온라인마케팅  
-> 회사위치: 강남구 논현동
+안녕하세요. 이수진입니다.
+
+웹퍼블리셔, 프론트앤드개발자로 주직업을 갖고 있습니다.  
+다양한 경험들을 많이 하고, 하루하루 즐겁게 살고 싶습니다.
+
+이 블로그는 저에 보물창고로 만들 생각입니다.^^  
+저도 이 블로그도 점점 쌓여가겠네요. 무엇이든! 

@@ -10,13 +10,13 @@ nav_list:
   Home : ['Home', '/', 'fa-home']
 #  Home_Alt : ['Home Alt', '/home-alt', 'fa-home']
 #  Home_Alt_2 : ['Home Alt 2', '/home-alt-2/', 'fa-home']
-  About : ['About', '/about', 'fa-anchor']
+#  About : ['About', '/about', 'fa-heart']
 #  Contact : ['Contact', '/contact', 'fa-plane']
-  Author : ['Author', '/author/jmaking', 'fa-user']
+  Author : ['Author', '/author/jmaking', 'fa-heart']
 single_footer: '<p>I am a slow walker, but I never walk back.</p>'
 footer_links:
-    About: ['About', '/about']
-    Writer: ['Writer 2015', '/about']
+    About: ['Copyright (c) 2015 Jmaking All Rights Reserved.', '#']
+    #Writer: ['Writer 2015', '/about']
 
 # 포스트 머리말 기본값 정의
 defaults:

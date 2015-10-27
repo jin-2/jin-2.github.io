@@ -4,7 +4,7 @@ date: 2014-10-02
 title: "서울좋은간판"
 categories: work
 author_name: jmaking
-author_url: jmaking
+author_url: /author/jmaking
 author_avatar: jmaking
 show_avatar: false
 read_time: 1
