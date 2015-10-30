@@ -24,3 +24,6 @@ cta_icon: fa-list
 
 이 블로그는 저에 보물창고로 만들 생각입니다.^^  
 저도 이 블로그도 점점 쌓여가겠네요. 무엇이든! 
+
+<i class="fa fa-github"></i> [GitHub](https://github.com/jin-2) , 
+<i class="fa fa-envelope"></i> [Mail](mailto:jmakeaz@gmail.com)
