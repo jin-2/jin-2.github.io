@@ -71,9 +71,26 @@ task결과물 전달
 ### [A Simple Gulp’y Workflow For Sass - Hugo Giraudel](http://www.sitepoint.com/simple-gulpy-workflow-sass/)
 
 #### [gulpfile.js(Sass에 대한 내용)](https://gist.github.com/jin-2/da318dbbe96221a16a81)
+
+### Module
 - **gulp-sourcemaps**
 - **gulp-autoprefixer**: prefixer를 지원하고 싶은 브라우저만 지정해서 자동으로 생성해 줌
 - **sassdoc**: 주석의 내용을 sass 가이드 문서로 만들어 줌
+- **del**: 폴더(디렉토리)/파일 제거
+- **gulp-if**: 조건 처리
+- **gulp-rename**: 파일 이름 변경
+- **gulp-jade**: Jade → HTML 변환
+- **gulp-sass**: Sass → CSS 변환
+- **gulp-ruby-sass**: Sass → CSS 변환(Ruby 기반)
+- **gulp-ruby-compass**: Sass → CSS 변환(Ruby 기반)
+- **gulp-plumber**: 오류 발생해도 watch 업무 지속
+- **gulp-watch**: 변경된 파일만 처리
+- **gulp-html-prettify**: HTML 구조 읽기 쉽게 변경
+- **gulp-connect-multi**: 웹 서버
+- **gulp-webserver**: 웹서버처럼 동작
+- **gulp-concat**: js 파일 병합
+- **gulp-uglify**: js 파일 압축
+- **gulp-mimify-html**: html 파일 압축
+- **gulp-livereload**: 웹 브라우저 리로드
 
-! 추가할 내용
-: 유용한 플러그인들
+
