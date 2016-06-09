@@ -22,7 +22,7 @@ HTML 속의 자바스크립트 밑줄 내용 정리
 
 ### 2장 HTML 속의 자바스크립트
 
-####&lt;script&gt; 요소: 여섯가지 속성
+#### `<script>` 요소: 여섯가지 속성
 
 - **async**[옵션]: 스크립트를 즉시 내려받지만 자원을 내려받거나 다른 스크립트를 불러오는 등 다른 페이지 작업을 방해해서는 안된다고 합니다.
 - **charset**[옵션]
@@ -43,15 +43,15 @@ HTML 속의 자바스크립트 밑줄 내용 정리
 1. `<` 기호를 모두 HTML 엔티티 `&lt;` 로 바꾸는 방법(가독성이 나쁨)
 2. CDATA 섹션(해당 콘텐츠가 있는 그대로의 텍스트이며 파싱하면 안된다고 명시하는 기능)으로 감싼다.
 
-	``` html
-	  <script>
-	  // <![CDATA[
-	  function compate (a, b) {
-	  	// something
-	  }
-	  //]]>
-	  </script>
-	```
+``` html
+  <script>
+  // <![CDATA[
+  function compate (a, b) {
+  	// something
+  }
+  //]]>
+  </script>
+```
 
 ####구식문법
 
