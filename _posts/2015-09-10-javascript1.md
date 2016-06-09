@@ -42,25 +42,28 @@ HTML 속의 자바스크립트 밑줄 내용 정리
 ##### XHTML 문법 에러는 두 가지 방법으로 수정할 수 있습니다.
 1. `<` 기호를 모두 HTML 엔티티 `&lt;` 로 바꾸는 방법(가독성이 나쁨)
 2. CDATA 섹션(해당 콘텐츠가 있는 그대로의 텍스트이며 파싱하면 안된다고 명시하는 기능)으로 감싼다.
-    ```
-    <script>
-    // <![CDATA[
-    function compate (a, b) {
-    	// something
-    }
-    //]]>
-    </script>
-    ```
+
+	``` html
+	  <script>
+	  // <![CDATA[
+	  function compate (a, b) {
+	  	// something
+	  }
+	  //]]>
+	  </script>
+	```
 
 ####구식문법
 
 모자이크 브라우저(`<script>` 요소를 지원하지 않는 브라우저)에서 `<script>` 요소의 컨텐츠를 페이지에 그대로 출력해서 페이지의 모양을 망쳐 놓았습니다. 채택된 솔루션은 다음과 같이 스크립트 코드를 HTML 주석으로 감싸는 방법입니다.
 
-    <script><!--
-    function sayHi(){
-         alert('Hi');
-    }
-    --></script>
+``` html
+<script><!--
+  function sayHi(){
+       alert('Hi');
+  }
+  --></script>
+```
 
 #### 인라인 코드와 외부파일
 
