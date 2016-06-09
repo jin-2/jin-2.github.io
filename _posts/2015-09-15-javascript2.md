@@ -104,27 +104,27 @@ console.log(isNaN(true));   // false
 ##### 숫자 변환
 - Number() : 어떤 데이터 타입도 가능
 
-	``` javascript
-	Number(null)    // 0
-	Number("")       // 0
-	Number(undefined)   // NaN
-	Number("ten")    // NaN
-	```
+``` javascript
+Number(null)    // 0
+Number("")       // 0
+Number(undefined)   // NaN
+Number("ten")    // NaN
+```
 
 - parseInt() : 정수 형태의 문자열을 바꿀 때
 
-	``` javascript
-	parseInt("12apple")   // 12
-	parseInt(0.10)   // 0
-	parseInt("")    // NaN
-	parseInt("10", 10) // 두 번째 매개변수에 10진수 명시
-	```
+``` javascript
+parseInt("12apple")   // 12
+parseInt(0.10)   // 0
+parseInt("")    // NaN
+parseInt("10", 10) // 두 번째 매개변수에 10진수 명시
+```
 
 - parseFloat() : 잘못된 부동소수점 숫자를 만날 때까지 파싱
 
-	``` javascript
-	parseFloat("1.25.23")   // 1.25
-	```
+``` javascript
+parseFloat("1.25.23")   // 1.25
+```
 
 #### 3.4.6 문자열 타입
 
