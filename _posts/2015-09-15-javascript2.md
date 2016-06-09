@@ -36,7 +36,9 @@ C 언어, 자바나 펄 등 C와 비슷한 언어에서 차용한 것
 #### 3.1.4 스트릭트 모드
 스트릭트 모드는 기존과는 다른 방식으로 자바스크립트를 파싱하고 실행하라고 지시하는 것 ECMAScript 3판의 문제를 해결했으며 안전하지 않은 동작에는 에러를 반환하도록 합니다. 
 
-    "use strict";
+``` javascript
+"use strict";
+```
 
 인터넷 익스플로러 10+, 파이어폭스 4+, 사파리 5.1+, 오페라 12+, 크롬에서 스트릭트 모드를 지원
 
@@ -65,25 +67,21 @@ typeof 연산자는 때때로 혼란스러운, 하지만 엄밀히 말해 올바
 #### 3.4.3 Null 타입
 객체를 사용해야 하지만 해당 객체를 이용할 수 없을 때에는 항상 그 자리에 null이 와야 합니다. 이렇게 하면 **null이 빈 객체를 가리키는 포인터라는 점을 늘 숙지**할 수 있고 undefined와 구별할 수 있게 됩니다.
 
-    console.log(null == undefined)    // true
-    console.log(null === undefined)   // false
+``` javascript
+console.log(null == undefined)    // true
+console.log(null === undefined)   // false
+```
 
 #### 3.4.4 불리언 타입
-Boolean() : 항상 불리언 값을 반환
+**Boolean()** : 항상 불리언 값을 반환
 
-##### true
-- true
-- 비어 있지 않은 문자열 모두
-- 0이 아닌 모든 숫자. 무한대 포함
-- 모든 객체
-- 해당 없음
-
-##### false
-- false
-- "" (빈 문자열)
-- 0, NaN
-- null
-- undefined
+| 데이터 타입 | true로 변환되는 값              | false로 변환되는 값 |
+|-------------|---------------------------------|---------------------|
+| 불리언      | true                            | false               |
+| 문자열      | 비어 있지 않은 문자열 모두      | "" (빈 문자열)      |
+| 숫자        | 0이 아닌 모든 숫자. 무한대 포함 | 0, NaN              |
+| 객체        | 모든 객체                       | null                |
+| Undefined   | 해당 없음                       | undefined           |
 
 #### 3.4.5 숫자 타입
 
@@ -96,24 +94,37 @@ ECMAScript에서 표현할 수 있는 최솟값과 최대값 사이에 있는 �
 ##### NaN: Not a Number
 **isNaN()** : 이 함수는 매개 변수를 하나 받으면 해당 값이 '숫자가 아닌 값'인지 검사합니다.
 
-    console.log(isNaN("ten"));   // true
-    console.log(isNaN(10));      // false
-    console.log(isNaN(false));  // false
-    console.log(isNaN(true));   // false
+``` javascript
+console.log(isNaN("ten"));   // true
+console.log(isNaN(10));      // false
+console.log(isNaN(false));  // false
+console.log(isNaN(true));   // false
+```
 
 ##### 숫자 변환
 - Number() : 어떤 데이터 타입도 가능
-    - Number(null)    // 0
-    - Number("")       // 0
-    - Number(undefined)   // NaN
-    - Number("ten")    // NaN
+
+	``` javascript
+	Number(null)    // 0
+	Number("")       // 0
+	Number(undefined)   // NaN
+	Number("ten")    // NaN
+	```
+
 - parseInt() : 정수 형태의 문자열을 바꿀 때
-    - parseInt("12apple")   // 12
-    - parseInt(0.10)   // 0
-    - parseInt("")    // NaN
-    - parseInt("10", 10) // 두 번째 매개변수에 10진수 명시
+
+	``` javascript
+	parseInt("12apple")   // 12
+	parseInt(0.10)   // 0
+	parseInt("")    // NaN
+	parseInt("10", 10) // 두 번째 매개변수에 10진수 명시
+	```
+
 - parseFloat() : 잘못된 부동소수점 숫자를 만날 때까지 파싱
-    - parseFloat("1.25.23")   // 1.25
+
+	``` javascript
+	parseFloat("1.25.23")   // 1.25
+	```
 
 #### 3.4.6 문자열 타입
 
@@ -121,14 +132,16 @@ ECMAScript에서 표현할 수 있는 최솟값과 최대값 사이에 있는 �
 
 ##### 문자열로 변환
 
-    var value1 = null;
-    var value2;
+``` javascript
+var value1 = null;
+var value2;
 
-    value1.toString()   // Uncaught TypeError
-    String(value1)      // null
+value1.toString()   // Uncaught TypeError
+String(value1)      // null
 
-    value2.toString()  //Uncaught TypeError
-    String(value2)    // undefined
+value2.toString()  //Uncaught TypeError
+String(value2)    // undefined
+```
 
 1. **toString()**
     - null과 undefined에는 이 메서드가 존재하지 않습니다.
@@ -137,12 +150,17 @@ ECMAScript에서 표현할 수 있는 최솟값과 최대값 사이에 있는 �
 toString() 메서드를 호출할 값이 null이나 undefined일 가능성이 있다면 값의 타입에 관계없이 항상 문자열을 반환하는 형 변환 함수 **String()**을 써도 됩니다.
 
 #### 3.4.7 객체 타입
+
+``` javascript
+var o = new Object();
+```
+
 - **constructor** - 해당 객체를 만드는 데 쓰인 함수. 이전 예제에서는 Object() 함수가 생성자입니다.
-- **hasOwnProperty( propertyName )** - 해당 프로퍼티가 객체 인스턴스에 고유하며 프로토타입에서 상속하지 않았음을 확인합니다. 프로퍼티 이름은 반드시 문자열이여야 합니다. 예를 들어 o.hasOwnProperty("name") 같은 형식으로 호출합니다.
-- **isPrototypeOf(object)** -  해당 객체가 다른 객체의 프로토타입인지 확인합니다.
+- **hasOwnProperty( propertyName )** - 해당 프로퍼티가 객체 인스턴스에 고유하며 프로토타입에서 상속하지 않았음을 확인합니다. 프로퍼티 이름은 반드시 문자열이여야 합니다. 예를 들어 `o.hasOwnProperty("name")` 같은 형식으로 호출합니다.
+- **isPrototypeOf( object )** -  해당 객체가 다른 객체의 프로토타입인지 확인합니다.
 - **propertyIsEnumerable( propertyName )** - 해당 프로퍼티를 for-in 문에서 나열할 수 있는지 확인합니다. 프로퍼티 이름은 반드시 문자열이여야 합니다.
 - **toLocaleString()** - 객체를 지역에 맞게 표현한 문자열을 반환합니다.
 - **toString()** - 객체를 문자열로 변환해 반환합니다.
 - **valueOf()** - 객체를 나타내는 문자열이나 숫자, 불리언을 반환합니다. toString()과 같은 값을 반환할 때가 많습니다. 
 
-**ECMAScript에서는 모든 객체가 Object에 기반해 만들어지므로 이들 포로퍼티와 메서드는 모든 객체에 존재합니다.**
+**ECMAScript에서는 모든 객체가 Object에 기반해 만들어지므로 이들 프로퍼티와 메서드는 모든 객체에 존재합니다.**
