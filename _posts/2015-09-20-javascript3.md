@@ -206,7 +206,9 @@ console.log( undefined - undefined ); // NaN
 첫 번째 문자열의 문자 코드와 두 번째 문자열의 문자 코드를 대응하며 비교합니다.
 
 ```javascript
-console.log("23" < "3"); // true
+console.log("23" < "3"); 
+// true: 문자열이므로 서로 대응하는 문자 코드끼리 비교합니다.
+
 console.log("23" < 3); // false
 console.log("a" < 3); // false
 console.log(NaN >= 3); // false
@@ -219,7 +221,7 @@ console.log(NaN >= 3); // false
 #### 3.5.7 동일 연산자
 ECMAScript 에서는 연산자를 두 벌로 분리해서 '동일'과 '비동일' 연산자는 비교하기 전에 타입을 변환하며 **'일치'와 '불일치' 연산자는 타입 변환 없이 비교**하는 것으로 정했습니다.
 
-##### 동일(==)과 비동일(!=)
+##### 동일(`==`)과 비동일(`!=`)
 두 연산자 모두 피연산자를 비교하기 전에 변환합니다. 이런 변환을 종종 '타입 강제'라 부릅니다.
 
 | 표현식            | 값    |
@@ -227,8 +229,8 @@ ECMAScript 에서는 연산자를 두 벌로 분리해서 '동일'과 '비동일
 | null == undefined | true  |
 | "NaN" == NaN      | false |
 | 5 == NaN          | false |
-| NaN == NaN        | false |
-| NaN != NaN        | false |
+| NaN == NaN        | **false** |
+| NaN != NaN        | **true**  |
 | false == 0        | true  |
 | true == 1         | true  |
 | true == 2         | false |
@@ -236,8 +238,10 @@ ECMAScript 에서는 연산자를 두 벌로 분리해서 '동일'과 '비동일
 | null == 0         | false |
 | "5" == 5          | true  |
 
-##### 일치(===)와 불일치(!==)
-**null === undefined // false**
+##### 일치(`===`)와 불일치(`!==`)
+```javascript
+null === undefined // false
+```
 
 #### 3.5.8 3항 연산자
 
@@ -251,9 +255,17 @@ variable = boolean_expression ? true_value : false_value;
 ```
 
 #### 3.5.9 할당 연산자(=)
+값을 변수에 할당합니다.
+
+```javascript
+var num = 10;
+num = num + 10;
+// OR
+num += 10; // 복합 할당: 단축 표기 목적
+```
 
 #### 3.5.10 쉼표 연산자
-변수 선언에 가장 많이 사용
+여러 문장을 한 문장으로 합칠 때 씁니다. 변수 선언에 가장 많이 사용합니다.
 
 ```javascript
 var num1=1, num2=2, num3=3;
