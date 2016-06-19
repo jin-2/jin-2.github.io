@@ -29,7 +29,7 @@ square_related: recommend-reed
 
 ##### 증감 연산자
 
-```
+```javascript
 var s1 = "2";
 var s2 = "z";
 var b = false;
@@ -53,7 +53,7 @@ console.log(--o);     // -2
    
 ##### 단항 플러스와 단항 마이너스
    
-```
+```javascript
 var s1 = "01";
 var s2 = "1.1";
 var s3 = "z";
@@ -114,7 +114,7 @@ console.log(!null);          // true
 
 첫 번째 피연산자에서 결과를 결정할 수 있다면 논리 AND 연산자는 두 번째 피연산자를 결코 평가하지 않습니다. **논리 AND에서 첫 번째 피연산자가 false라면 두 번째 피연산자의 값과는 무관하게 결과는 절대 true일 수 없습니다.** 즉 결과가 반드시 false이므로 절대 &&의 오른쪽을 평가할 이유는 전혀 없습니다.
 
-```
+```javascript
 var found = true;
 var found2 = false;
 
