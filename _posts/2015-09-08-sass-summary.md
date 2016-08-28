@@ -1,16 +1,9 @@
 ---
 layout: post
-date: 2015-09-08
 title: "Sass 기본 사용법"
-categories: css
-author_name : jmaking
-author_url : /author/jmaking
-author_avatar: jmaking
-show_avatar : false
-read_time : 20
-feature_image: feature-pineapple
-show_related_posts: true
-square_related: recommend-pineapple
+excerpt: "자료 정리"
+categories: [css]
+comments: false
 ---
 
 2015년 3월에 들었던 [야무](http://yamoo9.net/)쌤의 Sass 수업내용을 정리한다.

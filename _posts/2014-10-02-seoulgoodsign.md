@@ -1,16 +1,9 @@
 ---
 layout: post
-date: 2014-10-02
 title: "서울좋은간판"
-categories: work
-author_name: jmaking
-author_url: /author/jmaking
-author_avatar: jmaking
-show_avatar: false
-read_time: 1
-feature_image: feature-check
-show_related_posts: false
-square_related: recommend-check
+excerpt: "접근성 고도화"
+categories: [work]
+comments: false
 ---
 
 서울좋은간판의 리뉴얼 작업 후 접근성 고도화 작업을 진행하였습니다.

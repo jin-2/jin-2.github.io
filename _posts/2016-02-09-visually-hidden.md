@@ -1,16 +1,9 @@
 ---
 layout: post
-date: 2016-02-09
 title: "접근성을 지키며 텍스트를 숨기는 방법"
-categories: css
-author_name: jmaking
-author_url: /author/jmaking
-author_avatar: jmaking
-show_avatar: false
-read_time : 10
-feature_image: feature-pineapple
-show_related_posts: true
-square_related: recommend-pineapple
+excerpt: "기술에 사용된 속성에 대한 이해"
+categories: [css]
+comments: false
 published: false
 ---
 

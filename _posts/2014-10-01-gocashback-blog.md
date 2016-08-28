@@ -1,16 +1,9 @@
 ---
 layout: post
-date: 2014-10-01
 title: "Gocashback Korea Blog"
-categories: work
-author_name: jmaking
-author_url: /author/jmaking
-author_avatar: jmaking
-show_avatar: false
-read_time: 1
-feature_image: feature-check
-show_related_posts: false
-square_related: recommend-check
+excerpt: "블로그 페이지"
+categories: [work]
+comments: false
 ---
 
 고캐쉬백 코리아 블로그입니다.

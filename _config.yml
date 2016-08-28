@@ -1,42 +1,66 @@
-# Site settings
-title: Jmaking
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Minjeong
 email: jmakeaz@gmail.com
-description: > # Everything about the front-end.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-enable_retina: false
-permalink: :title
-nav_list:
-  Home : ['Home', '/', 'fa-home']
-#  Home_Alt : ['Home Alt', '/home-alt', 'fa-home']
-#  Home_Alt_2 : ['Home Alt 2', '/home-alt-2/', 'fa-home']
-#  About : ['About', '/about', 'fa-heart']
-#  Contact : ['Contact', '/contact', 'fa-plane']
-  Author : ['Author', '/author/jmaking', 'fa-heart']
-single_footer: '<p>I am a slow walker, but I never walk back.</p>'
-footer_links:
-    About: ['Copyright (c) 2015 Jmaking All Rights Reserved.', '#']
-    #Writer: ['Writer 2015', '/about']
+description: For what it's worth, it's never too late or too early to be whoever you want to be.
+url: # the base hostname & protocol for your site
 
-# 포스트 머리말 기본값 정의
-defaults:
-  -
-    scope:
-      path: "" # 이 빈 문자열은 프로젝트 내의 모든 파일을 의미한다
-      type: "posts" # 과거 Jekyll 2.2 의 `post`.
-    values:
-      layout: "post"
-      author_name: jmaking
-      author_url: /author/jmaking
-      author_avatar: jmaking
-      read_time: 30
-      show_related_posts: true
-      show_avatar: false
 
-# Build settings
-markdown: kramdown
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Korea/Seoul
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
 
-# Sass
-sass:
-    style: compact
-    sourcemap : true
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Minjeong
+  avatar: #leonids-logo.png
+  job: "Front end developer"
+  bio: "For what it's worth, it's never too late or too early to be whoever you want to be."
+  email: jmakeaz@gmail.com
+  disqus-shortname:
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: jin-2
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username

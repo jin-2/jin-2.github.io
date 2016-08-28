@@ -1,16 +1,9 @@
 ---
 layout: post
-date: 2015-12-14
 title: "스크랩: Issue #192: CSS Variables, Animations, calc()"
-categories: css
-author_name: jmaking
-author_url: /author/jmaking
-author_avatar: jmaking
-show_avatar: false
-read_time : 10
-feature_image: feature-pineapple
-show_related_posts: true
-square_related: recommend-pineapple
+excerpt: "자료 정리"
+categories: [css]
+comments: false
 published: false
 ---
 

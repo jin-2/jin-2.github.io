@@ -1,16 +1,9 @@
 ---
 layout: post
-date: 2015-12-17
 title: "아이콘폰트를 써야할까 말아야할까"
-categories: css
-author_name: jmaking
-author_url: /author/jmaking
-author_avatar: jmaking
-show_avatar: false
-read_time : 10
-feature_image: feature-pineapple
-show_related_posts: true
-square_related: recommend-pineapple
+excerpt: "Seriously, don't use Icon Fonts / Seriously, use Icon Fonts"
+categories: [css]
+comments: false
 ---
 
 메일로 받아보는 CSS Weekly 글 중 "Seriously, don't use Icon Fonts" 글을 읽었다. 그리고 다음 메일에 "Seriously, use Icon Fonts"를 읽었다. 아이콘 폰트를 편리하게만 사용했었는데 이런 깊은 내용들이 WOW~ 나중에 댓글도 읽어봐야겠다. 아주 의견들이 많다.

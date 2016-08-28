@@ -1,16 +1,9 @@
 ---
 layout: post
-date: 2015-12-04
 title: "gulp 시작하기"
-categories: dev
-author_name: jmaking
-author_url: /author/jmaking
-author_avatar: jmaking
-show_avatar: false
-read_time : 10
-feature_image: feature-tea
-show_related_posts: true
-square_related: recommend-tea
+excerpt: "자료 정리"
+categories: [dev]
+comments: false
 ---
 
 자동화 빌드도구 gulp를 시작하면서 기억할 것 메모!

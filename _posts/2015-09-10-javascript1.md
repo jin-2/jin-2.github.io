@@ -1,19 +1,10 @@
 ---
 layout: post
-date: 2015-09-10
 title: "책요약 - JavaScript for Web Developers 1"
-categories: Js
-author_name : jmaking
-author_url : /author/jmaking
-author_avatar: jmaking
-show_avatar : false
-read_time : 3
-feature_image: feature-reed
-show_related_posts: true
-square_related: recommend-reed
+excerpt: "HTML 속의 자바스크립트 밑줄 내용 정리"
+categories: [js]
+comments: false
 ---
-
-HTML 속의 자바스크립트 밑줄 내용 정리
 
 > 자바스크립트 프로그래밍: 프론트엔드 개발자를 위한   
 > 니콜라스 자카스    

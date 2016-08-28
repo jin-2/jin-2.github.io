@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f4f11af6-61be-4a18-a5ac-868994a20924" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/test.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/contact-form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/footer-page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/footer-related-posts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/footer-single.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/mini-footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/nav-no-js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/author.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/category.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/contact.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/home-alt-2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/home-alt.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/post-sidebar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/with-sidebar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_animate.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_base.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_global.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_layout.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_mixins.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_nojs.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_syntax-highlighting.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_type.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/partials/_alt-home.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/partials/_author.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/partials/_bootstrap-components.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/partials/_category.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/partials/_contact.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/partials/_favorites.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/partials/_main-content.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/partials/_menu.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/partials/_page-404.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/partials/_shared.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/partials/_sidebar.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/partials/_single.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/vendor/_bootstrap.min.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/vendor/_font-awesome.min.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/about.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/author-jmaking.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/author-michelle.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/category/coding/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/category/css/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/category/dev/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/category/journey/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/category/js/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/category/leadership/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/category/life/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/category/motivation/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/category/storytime/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/category/travel/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/category/work/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/home-alt-2.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/home-alt.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/coding-thumbnail.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/css-thumbnail.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/default-404.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dev-thumbnail.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-balloon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-book.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-cafe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-check.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-city.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-deep-sea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-foxtail.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-jellyfish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-laptop.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-night.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-pineapple.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-plantpot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-reed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-san-fran.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-sea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-sky.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-stars.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-stars2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-tea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-tree.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-water.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-wolf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/feature-work-gosumom.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fred.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/jane.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/jmaking.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/journey-thumbnail.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/js-thumbnail.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/leadership-thumbnail.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/life-thumbnail.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/michelle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motivation-thumbnail.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-assets/bar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-assets/walk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-assets/water.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-assets/work-boribori.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-assets/work-conkrit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-assets/work-gocashback-blog.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-assets/work-gosumom-ver1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-assets/work-gosumom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-assets/work-halfclub.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-assets/work-huvis.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-assets/work-lotte-job.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-assets/work-missgrill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-assets/work-owenscorning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-assets/work-sangnokresort.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-assets/work-seoulgoodsign.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/post-assets/work-tendency-manager.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-balloon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-cafe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-check.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-deep-sea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-default.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-foxtail.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-iceland.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-laptop.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-mountain.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-night.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-peak.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-pineapple.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-reed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-san-fran.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-sky.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-spain.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-stars.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-sunset.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-tea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-tree.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-wolf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/recommend-woods.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/storytime-thumbnail.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/travel-thumbnail.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/work-thumbnail.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/fastclick.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/html5shiv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/jquery-1.11.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/jquery.jpanelmenu.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/modernizr.custom.32229-2.8-respondjs-1-4-2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/retina.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/fonts/FontAwesome.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/nav.html" afterPath="$PROJECT_DIR$/_includes/nav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/sidebar.html" afterPath="$PROJECT_DIR$/_includes/sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="$PROJECT_DIR$/_layouts/page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012-01-01-work.md" afterPath="$PROJECT_DIR$/_posts/2012-01-01-work.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-09-01-boribori.md" afterPath="$PROJECT_DIR$/_posts/2014-09-01-boribori.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-09-02-huvis.md" afterPath="$PROJECT_DIR$/_posts/2014-09-02-huvis.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-09-03-lotte-job.md" afterPath="$PROJECT_DIR$/_posts/2014-09-03-lotte-job.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-09-04-halfclub.md" afterPath="$PROJECT_DIR$/_posts/2014-09-04-halfclub.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-09-05-sangnokresort.md" afterPath="$PROJECT_DIR$/_posts/2014-09-05-sangnokresort.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-10-01-gocashback-blog.md" afterPath="$PROJECT_DIR$/_posts/2014-10-01-gocashback-blog.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-10-02-seoulgoodsign.md" afterPath="$PROJECT_DIR$/_posts/2014-10-02-seoulgoodsign.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-10-03-owenscorning.md" afterPath="$PROJECT_DIR$/_posts/2014-10-03-owenscorning.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-10-04-tendency-manager.md" afterPath="$PROJECT_DIR$/_posts/2014-10-04-tendency-manager.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-10-05-conkrit.md" afterPath="$PROJECT_DIR$/_posts/2014-10-05-conkrit.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-10-06-missgrill.md" afterPath="$PROJECT_DIR$/_posts/2014-10-06-missgrill.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-10-07-gosumom.md" afterPath="$PROJECT_DIR$/_posts/2014-10-07-gosumom.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-08-sass-summary.md" afterPath="$PROJECT_DIR$/_posts/2015-09-08-sass-summary.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-10-javascript1.md" afterPath="$PROJECT_DIR$/_posts/2015-09-10-javascript1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-14-maintainable-javascript1.md" afterPath="$PROJECT_DIR$/_posts/2015-09-14-maintainable-javascript1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-15-javascript2.md" afterPath="$PROJECT_DIR$/_posts/2015-09-15-javascript2.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-20-javascript3.md" afterPath="$PROJECT_DIR$/_posts/2015-09-20-javascript3.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-22-maintainable-javascript2.md" afterPath="$PROJECT_DIR$/_posts/2015-09-22-maintainable-javascript2.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-23-javascript4.md" afterPath="$PROJECT_DIR$/_posts/2015-09-23-javascript4.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-24-maintainable-javascript3.md" afterPath="$PROJECT_DIR$/_posts/2015-09-24-maintainable-javascript3.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-10-06-javascript5.md" afterPath="$PROJECT_DIR$/_posts/2015-10-06-javascript5.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-10-28-javascript6.md" afterPath="$PROJECT_DIR$/_posts/2015-10-28-javascript6.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-12-04-about-gulp.md" afterPath="$PROJECT_DIR$/_posts/2015-12-04-about-gulp.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-12-07-webfont.md" afterPath="$PROJECT_DIR$/_posts/2015-12-07-webfont.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-12-14-CSS-Weekly-Issue192.md" afterPath="$PROJECT_DIR$/_posts/2015-12-14-CSS-Weekly-Issue192.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-12-14-Front-end-Dev-Weekly-Issue80.md" afterPath="$PROJECT_DIR$/_posts/2015-12-14-Front-end-Dev-Weekly-Issue80.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-12-14-flexbox.md" afterPath="$PROJECT_DIR$/_posts/2015-12-14-flexbox.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-12-17-do-donot-iconfont.md" afterPath="$PROJECT_DIR$/_posts/2015-12-17-do-donot-iconfont.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-01-10-study.md" afterPath="$PROJECT_DIR$/_posts/2016-01-10-study.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-02-09-visually-hidden.md" afterPath="$PROJECT_DIR$/_posts/2016-02-09-visually-hidden.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.scss" afterPath="$PROJECT_DIR$/css/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feed.xml" afterPath="$PROJECT_DIR$/feed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+    </list>
+    <ignored path="jin-2.github.io.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="jin-2.github.io" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_site/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/_site/css/main.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jin-2.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jin-2.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jin-2.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jin-2.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jin-2.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="SearchEverywhereHistoryKey" value="cate&#9;FILE&#9;file:///Applications/MAMP/htdocs/jin-2.github.io/_layouts/category.html&#10;main.scss&#9;FILE&#9;file:///Applications/MAMP/htdocs/jin-2.github.io/css/main.scss&#10;main.css&#9;FILE&#9;file:///Applications/MAMP/htdocs/jin-2.github.io/_site/css/main.css" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4f11af6-61be-4a18-a5ac-868994a20924" name="Default" comment="" />
+      <created>1472376299153</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1472376299153</updated>
+      <workItem from="1472376300355" duration="1535000" />
+      <workItem from="1472391844815" duration="65000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1600000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29660022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_site/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/partials/_main-content.sass" />
+    <entry file="file://$PROJECT_DIR$/_sass/partials/_alt-home.sass" />
+    <entry file="file://$PROJECT_DIR$/_sass/_global.sass" />
+    <entry file="file://$PROJECT_DIR$/_sass/_layout.scss" />
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/category.html" />
+  </component>
+</project>

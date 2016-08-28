@@ -1,16 +1,9 @@
 ---
 layout: post
-date: 2015-12-14
 title: "스크랩: Front-end Dev Weekly - Issue 80"
-categories: dev
-author_name: jmaking
-author_url: /author/jmaking
-author_avatar: jmaking
-show_avatar: false
-read_time : 10
-feature_image: feature-tea
-show_related_posts: true
-square_related: recommend-tea
+excerpt: "소식 공유"
+categories: [dev]
+comments: false
 ---
 
 이메일로 오는 Front-end Dev Weekly - Issue 80 중 기억할 내용을 스크랩하였다.

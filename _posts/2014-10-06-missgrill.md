@@ -1,16 +1,9 @@
 ---
 layout: post
-date: 2014-10-06
 title: "Miss Grill"
-categories: work
-author_name: jmaking
-author_url: /author/jmaking
-author_avatar: jmaking
-show_avatar: false
-read_time: 1 
-feature_image: feature-check
-show_related_posts: false
-square_related: recommend-check
+excerpt: "워드프레스 사이트 구축"
+categories: [work]
+comments: false
 ---
 
 건강한 요리를 만드는 Miss Grill!

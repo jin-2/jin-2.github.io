@@ -1,16 +1,9 @@
 ---
 layout: post
-date: 2014-10-04
 title: "Tendency Manager"
-categories: work
-author_name: jmaking
-author_url: /author/jmaking
-author_avatar: jmaking
-show_avatar: false
-read_time: 1
-feature_image: feature-check
-show_related_posts: false
-square_related: recommend-check
+excerpt: "관리자 사이트 구축"
+categories: [work]
+comments: false
 ---
 
 텐던시 자사 관리자 사이트를 모바일에서도 접근하기 쉽도록 반응형으로 리뉴얼하였습니다.

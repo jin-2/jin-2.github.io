@@ -1,19 +1,10 @@
 ---
 layout: post
-date: 2015-09-22
 title: "책요약 - Maintainalble JavaScript 2"
-categories: js
-author_name : jmaking
-author_url : /author/jmaking
-author_avatar: jmaking
-show_avatar : false
-read_time : 10
-feature_image: feature-reed
-show_related_posts: true
-square_related: recommend-reed
+excerpt: "스타일 가이드라인(주석, 문장과 표현식)에 대한 내용 정리"
+categories: [js]
+comments: false
 ---
-
-스타일 가이드라인(주석, 문장과 표현식)에 대한 내용 정리
 
 > 읽기 좋은 자바스크립트 코딩 기법 Maintainalble JavaScript  
 > 니콜라스 카자스  

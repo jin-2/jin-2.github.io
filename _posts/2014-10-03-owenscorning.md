@@ -1,16 +1,9 @@
 ---
 layout: post
-date: 2014-10-03
 title: "Owens Corning"
-categories: work
-author_name: jmaking
-author_url: /author/jmaking
-author_avatar: jmaking
-show_avatar: false
-read_time: 1
-feature_image: feature-check
-show_related_posts: false
-square_related: recommend-check
+excerpt: "사이트 구축"
+categories: [work]
+comments: false
 ---
 
 오웬스코닝은 주거용 및 상업용 건축자재, 유리섬유 강화재 및 복합소재를 포괄하는 기업으로 한국 웹사이트를 제작하였습니다.
