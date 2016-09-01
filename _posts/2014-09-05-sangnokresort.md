@@ -4,6 +4,7 @@ title: "상록리조트"
 excerpt: "기업 사이트 구축"
 categories: [work]
 comments: false
+published: false
 ---
 
 공무원연금공단에서 운영하는 골프와 레저를 즐길 수 있는 리조트입니다. 천안, 화성, 남원, 김해, 수안보 지역별로 웹이 구분되어 있습니다. 

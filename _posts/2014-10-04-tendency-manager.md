@@ -4,6 +4,7 @@ title: "Tendency Manager"
 excerpt: "관리자 사이트 구축"
 categories: [work]
 comments: false
+published: false
 ---
 
 텐던시 자사 관리자 사이트를 모바일에서도 접근하기 쉽도록 반응형으로 리뉴얼하였습니다.

@@ -4,6 +4,7 @@ title: "서울좋은간판"
 excerpt: "접근성 고도화"
 categories: [work]
 comments: false
+published: false
 ---
 
 서울좋은간판의 리뉴얼 작업 후 접근성 고도화 작업을 진행하였습니다.
