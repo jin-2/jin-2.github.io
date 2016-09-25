@@ -42,7 +42,7 @@ comments: false
     colors[2] = 'black'; // 세 번째 데이터를 바꿉니다.
     alert(colors[2]); // black
 
-**length 프로퍼티의 흥미로운 특징**
+**length 프로퍼티의 흥미로운 특징**  
 length 프로퍼티의 값을 바꾸면 배열 길이가 그에 맞게 바뀌면서 데이터를 제거하거나 빈 슬롯을 추가합니다.
 
     var colors = ['red', 'yellow', 'green'];
@@ -55,9 +55,9 @@ length 프로퍼티의 값을 바꾸면 배열 길이가 그에 맞게 바뀌면
     colors[colors.length] = 'black';
     console.log(colors); // ["red", "yellow", "green", "black"]
 
-###5.2.1 배열 감지
+### 5.2.1 배열 감지
 
-####instanceof
+#### instanceof
 전역 스코프가 **하나뿐인** 단순한 웹 페이지에서는 instanceof 연산자를 쓰면 됩니다.
 
     if (value of instanceof Array){
@@ -70,10 +70,11 @@ length 프로퍼티의 값을 바꾸면 배열 길이가 그에 맞게 바뀌면
     if (Array.isArray(value)){
         // 배열일 때 실행하는 코드
     }
+
 *익스플로러 9 이상, 파이어폭스 4 이상, 사파리 5 이상, 오페라 10.5 이상, 크롬은 모두*
 
-###5.2.2 변환 메서드
-객체에는 모두  **toLocaleString(), toString(), valueOf()** 메서드가 있습니다.
+### 5.2.2 변환 메서드
+객체에는 모두  **toLocaleString(), toString(), valueOf()** 메서드가 있습니다.  
 배열에서 호출했을 때는 toString()과 valueOf() 메서드는 같은 값을 반환합니다. toLocaleString() 메서드는 toString()이나 valueOf()와 같은 값을 반환할 때도 있고 그렇지 않을 때도 있습니다. 그 값은 쉼표로 분리된 문자열입니다.
 
     var colors = ['red', 'yellow', 'green'];
@@ -91,7 +92,7 @@ length 프로퍼티의 값을 바꾸면 배열 길이가 그에 맞게 바뀌면
     // red,yellow,green 
     alert(colors); 
 
-####join()
+#### join()
 구분자가 될 문자열을 매개변수로 받고 배열 데이터를 모두 포함한 문자열을 반환합니다.
 
     var colors = ['red', 'yellow', 'green'];
@@ -99,9 +100,9 @@ length 프로퍼티의 값을 바꾸면 배열 길이가 그에 맞게 바뀌면
     console.log(colors.join('||')); // red||yellow||green
     console.log(colors.join( )); // red,yellow,green
 
-###5.2.3 스택 메서드
+### 5.2.3 스택 메서드
 
-#### 스택은 LIFO(last-in-first-out) 구조라고 불리기도 하는데,
+#### 스택은 LIFO(last-in-first-out) 구조라고 불리기도 하는데,  
 이 말의 의미는 데이터를 삭제할 때는 마지막에 추가된 데이터가 제일 먼저 삭제된다는 뜻입니다. 
 
     // 배열 생성
@@ -138,7 +139,7 @@ length 프로퍼티의 값을 바꾸면 배열 길이가 그에 맞게 바뀌면
 #### pop()
 배열의 **마지막 데이터를 제거**하고 length 프로퍼티를 그에 맞게 줄여서 반환합니다.
 
-###5.2.4 큐 메서드
+###  5.2.4 큐 메서드
 스택이 데이터 입출력을 LIFO로 제한하는 구조라면 큐는 데이터 입출력을 **FIFO(first-in-first-out)** 로 제한하는 구조입니다. 큐는 목록 마지막에 데이터를 추가하며 **목록 맨 앞에서 데이터를 꺼냅니다.**
 
 #### shift()
@@ -172,7 +173,7 @@ length 프로퍼티의 값을 바꾸면 배열 길이가 그에 맞게 바뀌면
     firstItem = animals.pop();
     console.log(animals);
 
-###5.2.5 정렬 메서드
+### 5.2.5 정렬 메서드
 
 #### reverse()
 데이터의 순서를 뒤집습니다.
@@ -209,7 +210,7 @@ length 프로퍼티의 값을 바꾸면 배열 길이가 그에 맞게 바뀌면
     // [15, 10, 5, 1, 0]
     console.log('result reverse: '+sortValues);
 
-###5.2.6 조작 메서드
+### 5.2.6 조작 메서드
 
 #### concat()
 이 메서드는 먼저 **현재 배열을 복사**한 다음 메서드의 매개변수를 새 배열 **마지막에 추가**해서 반환합니다. 매개변수를 넘기지 않으면 단순히 현재 배열의 복사본을 반환합니다.
@@ -264,7 +265,7 @@ concat() & slice() 예:
     console.log(colors); // ["green", "red", "purple", "orange", "blue"]
     console.log(removed); // ["yellow"]
 
-###5.2.7 위치 메서드
+### 5.2.7 위치 메서드
 
 #### indexOf()
 배열의 처음(인덱스 0)에서 검색을 시작하여 마지막까지 검색
@@ -298,7 +299,7 @@ concat() & slice() 예:
 
 [MDN-Polyfill](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
 
-###5.2.8 반복 메서드
+### 5.2.8 반복 메서드
 - 매개변수를 두 개 받는다.
 - 하나는 배열의 각 데이터에서 실행할 함수
 - 옵션인 다른 하나는 함수를 실행할 스코프 객체
@@ -313,7 +314,7 @@ concat() & slice() 예:
         return (item>2);
     });
 
-console.log(everyResult); // false
+    console.log(everyResult); // false
 
 #### some()
 배열의 모든 데이터에서 콜백 함수를 호출하고 반환 값 중 하나라도 true이면 true를 반환합니다.
@@ -360,7 +361,7 @@ console.log(everyResult); // false
 ! Browser Supported
 :   인터넷 익스플로러 9 이상, 파이어폭스 2 이상, 사파리 3 이상, 오페라 9.5이상, 크롬
 
-###5.2.9 감소 메서드
+###  5.2.9 감소 메서드
 
 #### reduce(), reduceRight()
 모두 배열을 순회하며 콜백 함수를 실행하고 값을 하나 만들어 반환합니다. **reduce()** 는 첫번째 데이터에서 시작하여 마지막까지 진행하고, **recuceRight()** 는 반대로 배열의 마지막 데이터에서 시작하여 첫번째까지 진행합니다.
