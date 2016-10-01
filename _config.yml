@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: Minjeong
+title: Jay-j
 email: jmakeaz@gmail.com
 description: For what it's worth, it's never too late or too early to be whoever you want to be.
 url: # the base hostname & protocol for your site
@@ -35,7 +35,7 @@ kramdown:
 owner:
   name: Minjeong
   avatar: happy.png
-  job: "Front end developer"
+  job: "I am well-rounded person."
   bio: "For what it's worth, it's never too late or too early to be whoever you want to be."
   email: jmakeaz@gmail.com
   disqus-shortname:
