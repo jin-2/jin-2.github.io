@@ -30,9 +30,9 @@ var sum = function (num1, num2) {
 #### Function 생성자
 사실 이런 문법은 권장하지 않는데, 이런 문법을 쓰면 코드를 두 번, 즉 일반적인 ECMAScript 표현식으로서 평가하고 생성자에게 전달할 문자열을 다시 평가해야 하므로 성능에 영향이 있기 때문입니다.
 
-{% highlight javascript %}
+```javascript
 var sum = new Function('num1', 'num2', 'return num1 + num2'); // 권장하지 않음
-{% endhighlight %}
+```
 
 #### 함수 이름은 단순히 함수를 가르키는 포인터일 뿐이므로 객체를 가리키는 포인터와 마찬가지입니다. 
 즉, 다음과 같이 함수 하나에 이름을 여러 개 붙일 수 있습니다.
