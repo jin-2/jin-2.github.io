@@ -42,7 +42,7 @@ s1 = null;
 
 #### 원시값
 'foo', true, false, null, undefined와 같은 자바스크립트 값은 **더이상 단순화**할 
-수 없기 때문에 원시적(Primitive)이라 하며, 이러한 값을 가리켜 원시값이라 한다. 
+수 없기 때문에 원시적(Primitive)이라 하며, 이러한 값을 가리켜 원시값이라 합니다. 
 
 #### 래퍼 객체
 래퍼(wrapper) 객체는 **원시(primitive) 타입의 값을 객체로 다루기 위한 객체**로 
@@ -57,7 +57,7 @@ Boolean, Symbol이 제공된다.
 #### 5.6.1 불리언 타입
 - Boolean 타입은 불리언 값에 대응하는 참조 타입입니다. 
 - Boolean 객체를 생성하려면 다음과 같이 Boolean 생성자에 true나 false를 넘깁니다.  
-- valueOf(), toString() 메서드를 오버라이드합니다.
+- `valueOf()`, `toString()` 메서드를 오버라이드합니다.
 
 ```javascript
 var booleanObject = new Boolean(true);
@@ -90,11 +90,11 @@ console.log(falseValue instanceof Boolean); // boolean
 ```
 
 **원시 불리언 값과 Boolean 객체를 반드시 구분할 수 있어야 하며 Boolean 객체는 
-결고 쓰지 말기를 권합니다.**
+결코 쓰지 말기를 권합니다.**
 
 #### 5.6.2 Number 타입
 - Number 타입은 숫자형 값의 참조 타입입니다.
-- valueOf(), toLocaleString(), toString() 메서드를 오버라이드 합니다.
+- `valueOf()`, `toLocaleString()`, `toString()` 메서드를 오버라이드 합니다.
 
 ```javscript
 var numberObject = new Number(10);
@@ -164,4 +164,122 @@ console.log(numberValue instanceof Number); // false
 
 #### 5.6.3 String 타입
 
-to be continue...
+- String 타입은 문자열을 나타내는 객체입니다.
+- valueOf(), toLocaleString(), toString() 메서드는 모두 객체의 원시 문자열
+값을 반환합니다.
+
+```javascript
+var stringObject = new String('Hello world');
+```
+
+##### length
+주의할 점은 해당 문자열이 2바이트 문자이더라도 한 글자로 계산합니다.
+
+```javascript
+var stringValue = "Hello world";
+console.log(stringValue.length); // 11
+```
+
+##### 글자 메서드
+
+###### charAt()
+매개변수로 받은 인덱스에 위치한 문자를 한 글자로 이루어진 문자열로 반환합니다.
+
+```javascript
+console.log(stringValue.charAt(1)); // e
+```
+
+###### charCodeAt()
+매개변수로 받은 인덱스에 위치한 문자를 문자 코드로 반환합니다.
+
+```javascript
+console.log(stringValue.charCodeAt(1)); // 101
+```
+
+###### ECMAScript 5에서 개별 문자 접근 방법 - 대괄호 표기법
+
+```javascript
+console.log(stringValue[1]); // e
+```
+
+##### 문자열 조작 메서드
+문자열 값을 조작하는 메서드는 다양합니다.
+
+###### concat()
+- 문자열을 병합하여 그 결과를 반환합니다.
+
+```javascript
+var stringValue = 'hello ';
+var result = stringValue.concat('world');
+console.log(result); // hello world
+console.log(stringValue); // hello
+```
+
+- concat() 메서드가 받는 매개변수 숫자에는 제한이 없으므로 다음과 같이 문자열을 
+원하는 만큼 넘길 수 있습니다.
+
+```javascript
+var stringValue = 'hello ';
+var result = stringValue.concat('world', ' !!');
+console.log(result); // hello world !!
+```
+
+- 연산자 `+` 가 더 자주 쓰이며 concat() 메서드보다 더 빨리 동작합니다.
+
+###### slice(), substr(), substring()
+- 세 메서드는 모두 자신을 호출한 문자열의 일부분을 반환하며 매개변수는 한 개 
+또는 두 개를 받습니다
+- **두 번째 매개변수 사용이 다릅니다.**
+
+```javascript
+var stringValue = 'wonderful-life';
+
+console.log(stringValue.slice(3)); // derful-life
+console.log(stringValue.substring(3)); // derful-life
+console.log(stringValue.substr(3)); // derful-life
+
+console.log(stringValue.slice(3, 7)); // derf
+console.log(stringValue.substring(3, 7)); // derf
+console.log(stringValue.substr(3, 7)); // derful-
+```
+
+**음수를 넘겼을 경우**
+
+- slice(): 음수 매개변수를 받으면 문자열 길이에 해당 매개변수를 더한 값을 사용합니다.
+- substr(): 첫 번째 매개변수에 음수를 받으면 문자열 길이에 해당 매개변수를 
+더한 값을 사용합니다. 두 번째 매개변수에 음수를 받으면 0을 사용합니다.
+- substring(): 음수 매개변수를 모두 0으로 바꿉니다.
+
+```javascript
+var stringValue = 'wonderful-life';
+
+console.log(stringValue.slice(-3)); // slice(11) = ife
+console.log(stringValue.substr(-3)); // substr(11) = ife
+console.log(stringValue.substring(-3)); // substring(0) = wonderful-life
+
+console.log(stringValue.slice(3, -4)); // slice(3, 10) = derful-
+console.log(stringValue.substring(3, -4)); // substring(3, 0) -> substring(0, 3) = won
+console.log(stringValue.substr(3, -4)); // 빈 문자열
+```
+
+##### 문자열 위치 메서드
+
+커밍순~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
