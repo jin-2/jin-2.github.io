@@ -262,12 +262,185 @@ console.log(stringValue.substring(3, -4)); // substring(3, 0) -> substring(0, 3)
 console.log(stringValue.substr(3, -4)); // 빈 문자열
 ```
 
-##### 문자열 위치 메서드
+##### 문자열 위치 메서드 indexOf(), lastIndexOf()
+
+- 문자열 안에서 원하는 문자열의 위치를 찾는 메서드입니다.
+- 두 메서드는 모두 매개변수로 넘긴 문자열을 검색해 그 위치를 반환하며
+찾지 못했을 때는 **-1**을 반환합니다.
+- 두 메서드의 차이는 `indexOf()`가 문자열 처음에서 검색을 시작하는 반면
+`lastIndexOf()`는 문자열 마지막에서 검색을 시작한다는 점입니다.
+
+```javascript
+var stringValue = 'hello world';
+stringValue.indexOf('o'); // 4
+stringValue.lastIndexOf('o'); // 7
+```
+
+각 메서드에 두 번째 매개변수 6을 넘기면 결과는 이전 예제와 반대가 됩니다.
+
+```javascript
+stringValue.indexOf('o', 6); // 7: 인덱스 6(w)부터 검색을 시작한다.
+stringValue.lastIndexOf('o', 6); // 4: 인덱스 6부터 시작해 hello의 'o' 찾는다.
+```
+
+###### 원하는 문자를 전부 찾을 수 있는 방법
+검색을 시작할 위치를 증가시키면서 indexOf()를 계속 호출합니다.
+
+```javascript
+var stringValue = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit';
+var positions = new Array();
+var pos = stringValue.indexOf('e');
+
+while(pos > -1) {
+    positions.push(pos);
+    pos = stringValue.indexOf('e', pos + 1);
+}
+
+console.log(positions); // [3, 24, 32, 35, 52]
+```
+
+##### trim() 메서드
+
+문자열을 복사한 후 앞뒤 공백을 모두 제거한 결과를 반환합니다.
+
+```javascript
+var stringValue = '  delete space  ';
+var trimmedStringValue = stringValue.trim();
+
+console.log(stringValue); // '  delete space  '
+console.log(trimmedStringValue); 'delete space'
+```
+
+##### 대소문자 메서드
+대개는 지역 메서드와 범용 메서드가 완전히 같지만 터키어 같은 일부 언어에서는
+유니코드 대소문자 변환에 따른 특별한 규칙이 필요하며 이 때문에 지역 메서드가 필요합니다.
+
+###### toLowerCase(), toUpperCase()
+java.lang.String의 해당 메서드를 본따 만들어진 메서드입니다.
+
+###### toLocaleLowerCase(), toLocaleUpperCase()
+지역에 맞게 사용하도록 만든 지역 메서드입니다.
+
+```javascript
+var stringValue = 'hello world';
+console.log(stringValue.toLocaleUpperCase()); // HELLO WORLD
+console.log(stringValue.toUpperCase()); // HELLO WORLD
+console.log(stringValue.toLocaleLowerCase()); // hello world
+console.log(stringValue.toLowerCase()); // hello world
+```
+
+##### 문자열 패턴 매칭 메서드
+
+###### match()
+
+- RegExp 객체의 **exec() 메서드와 같은 결과**를 반환합니다.
+- 매개변수로 정규 표현식 리터럴이나 RegExp 객체를 하나 받습니다.
+
+```javascript
+var text = 'cat, bat, sat, fat';
+var pattern = /.at/;
+
+// pattern.exec(text)와 같습니다.
+var matches = text.match(pattern);
+console.log(matches.index); // 0
+console.log(matches[0]); // cat
+console.log(pattern.lastIndex); // 0
+```
+
+**lastIndex**
+패턴 매칭을 어느 위치에서 시작할지 나타내는 정수 값입니다. 
+이 값은 항상 0에서 시작합니다.
+
+**index**
+패턴이 일치한 위치를 나타냅니다.
+
+###### search()
+
+- match()와 마찬가지로 정규 표현식 리터럴이나 RegExp 객체를 매개변수롤 받습니다.
+- 패턴에 일치하는 첫 번째 문자열 인덱스를 반환하며 일치하는 것을 찾지 
+못했을 때는 **-1**을 반환합니다.
+- 항상 문자열 처음에서 검색을 시작합니다.
+
+```javascript
+var text = 'cat, bat, sat, fat';
+var pos = text.search(/at/);
+console.log(pos); // 1
+```
+
+###### replace()
+
+- 문자열 일부를 바꾸는 메서드입니다.
+- 매개변수를 두 개 받는데 첫번째 매개변수는 RegExp 객체 또는 문자열(단,
+이 문자열은 정규 표현식으로 변환되지 않습니다.)이고 두 번째 매개변수는 
+문자열 또는 문자열을 반환하는 함수입니다.
+- 첫 번째 매개변수가 문자열이라면 해당 문자열과 일치하는 첫 번째 문자열만 바꿉니다.
+- 일치하는 문자열 전체를 바꾸려면 다음과 같이 정규표현식에 g 플래그를 써서 
+넘기는 방법 외에는 없습니다.
+
+```javascript
+var text = 'cat, bat, sat, fat';
+
+var result = text.replace('at', 'ond');
+console.log(result); // cond, bat, sat, fat
+
+var result2 = text.replace(/at/g, 'ond');
+console.log(result2); // cond, bond, sond, fond
+```
+
+정규 표현식에서 얻은 정보를 다양한 방법으로 응용하는 특수문자가 있습니다. (195쪽)
+
+```javascript
+var text = 'cat, bat, sat, fat';
+result = text.replace(/(.at)/g, 'word ($1)');
+console.log(result); // word (cat), word (bat), word (sat), word (fat)
+
+result2 = text.replace(/(.at)/g, 'word ($\')');
+console.log(result2); // word (, bat, sat, fat), word (, sat, fat), word (, fat), word ()
+```
+
+- replace() 두 번째 매개변수에는 함수도 쓸 수 있습니다. 일치하는 것이 하나뿐일 때
+콜백함수는 자동으로 매개변수를 세 개 받습니다. 
+- 일치하는 문자열, 해당 문자열의 위치, 마지막으로 전체 문자열입니다.
+- 매개변수로 함수를 넘기면 다음과 같이 대체할 문자열을 더 세밀히 조절할 수 있습니다.
+
+```javascript
+function htmlEscape(text) {
+    return text.replace(/[<>"&]/g, function(match, pos, originalText) {
+        switch(match) {
+            case '<':
+                return '&lt;';
+            case '>':
+                return '&gt;';
+            case '&':
+                return '&amp;';
+            case '\"':
+                return '&quot;';
+        }
+    });
+}
+
+// &lt;p class="greeting"&gt;Hello world!&lt;/p&gt;
+console.log(htmlEscape('<p class=\"greeting\">Hello world!</p>'));
+```
+
+###### split()
+- 텍스트 구분자를 기준으로 분리해서 배열에 담아 변환합니다.
+- 구분자에는 문자열을 쓸 수도 있고, RegExp 객체를 쓸 수도 있는데 문자열을 
+정규 표현식으로 간주하지는 않습니다.
+- 옵션인 두 번째 매개변수는 반환 받을 배열의 크기를 지정하는 숫자입니다.
+- split() 메서드 내의 정규 표현식 지원은 브라우저에 따라 다르므로,
+캡쳐 그룹을 사용할 때는 브라우저별로 정확히 테스트하십시오.
+- [자바스크립트 split 버그가 마침내 수정되었습니다.](http://blog.stevenlevithan.com/archives/cross-browser-split)
+
+```javascript
+var colorText = 'red,blue,green,yellow';
+var colors1 = colorText.split(','); // ["red", "blue", "green", "yellow"]
+var colors2 = colorText.split(',', 2); // ["red", "blue"]
+```
+
+##### localeCompare() 메서드
 
 커밍순~
-
-
-
 
 
 
