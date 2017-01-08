@@ -430,7 +430,7 @@ console.log(htmlEscape('<p class=\"greeting\">Hello world!</p>'));
 - 옵션인 두 번째 매개변수는 반환 받을 배열의 크기를 지정하는 숫자입니다.
 - split() 메서드 내의 정규 표현식 지원은 브라우저에 따라 다르므로,
 캡쳐 그룹을 사용할 때는 브라우저별로 정확히 테스트하십시오.
-- [자바스크립트 split 버그가 마침내 수정되었습니다.](http://blog.stevenlevithan.com/archives/cross-browser-split)
+- [브라우저 간 비호환성 문제에 관한 자세한 설명 - 자바스크립트 split 버그가 마침내 수정되었습니다.](http://blog.stevenlevithan.com/archives/cross-browser-split)
 
 ```javascript
 var colorText = 'red,blue,green,yellow';
@@ -439,8 +439,41 @@ var colors2 = colorText.split(',', 2); // ["red", "blue"]
 ```
 
 ##### localeCompare() 메서드
+문자열 두 개를 비교한 후 다음과 같이 세 가지 값 중 하나를 반환합니다.
 
-커밍순~
+- 메서드를 호출하는 텍스트가 매개변수로 넘긴 문자열보다 알파벳 순서상 뒤에
+있다면 음수를 반환합니다.(거의 대부분 -1 반환)
+- 메서드를 호출한 텍스트와 매개변수 문자열이 일치한다면 0을 반화합니다.
+- 메서드를 호출하는 텍스트가 매개변수로 넘긴 문자열보다 알파벳 순서상 앞에
+있다면 양수를 반환합니다.(거의 대부분 1을 반환)
+
+```javascript
+var stringValue = 'yellow';
+console.log(stringValue.localeCompare('brick')); // 1
+console.log(stringValue.localeCompare('yellow')); // 0
+console.log(stringValue.localeCompare('zoo')); // -1
+```
+
+`localeCompare()`에서 독특한 점은 메서드가 정확히 어떻게 동작할지는 브라우저를
+실행하는 지역에 따라 다르다는 겁니다. ECMAScript에서 미국의 표준 언어는 영어이며
+localeCompare()는 대소문자를 구분하고 대문자가 소문자보다 앞에 온다고 간주합니다.
+하지만 지역에 따라 결과는 다를 수 있습니다.
+
+##### fromCharCode() 메서드
+문자 코드를 받아 이를 문자열로 변환하는 겁니다. 간단히 생각해 `charCodeAt()`
+메서드가 하는 일을 거꾸로 한다고 생각하면 됩니다.
+
+```javascript
+console.log(String.fromCharCode(104, 101, 108, 108, 111)); // hello
+```
+
+##### HTML 메서드
+웹 브라우저 제조사들은 자바스크립트에서 동적으로 HTML 형식을 생성할 필요가
+있음을 일찍 깨달았습니다. 그에 따라 명세를 확장해서 HTML 형식 생성에 필요한
+몇 가지 메서드를 추가하였습니다. 하지만 이들 메서드를 쓰면 시맨틱 마크업을
+해치므로 거의 사용하지 않습니다.
+
+
 
 
 
