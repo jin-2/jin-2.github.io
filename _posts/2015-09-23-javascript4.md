@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "책요약 - JavaScript for Web Developers 4"
-excerpt: "문장과 함수 내용 정리"
+title: "JavaScript for Web Developers(4): 문장, 함수"
+excerpt: "책요약: if, do-while, while, for, for-in, switch, 매개변수, arguments 객체"
 categories: [js]
 comments: false
 ---
 
 > 자바스크립트 프로그래밍: 프론트엔드 개발자를 위한   
 > 니콜라스 자카스    
-> 인사이트 
+> 인사이트
 > 978-89-6626-076-8
 
 ### 3.6 문장
@@ -22,7 +22,7 @@ if (condition) statement1 else statement2
 condition는 어떤 표현식이든 쓸 수 있다. `Boolean()` 함수를 호출해 불리언 값으로 바꾼다.
 
 #### 3.6.2 do-while 문
-do-while 문은 **평가 전 루프**입니다. 평가전 루프라는 말은 루프의 종료 조건을 평가하기 전에 루프 본문을 실행한다는 뜻입니다. 즉 루프 본문은 최소 한 번은 반드시 실행됩니다.
+do-while 문은 **평가 전 루프** 입니다. 평가전 루프라는 말은 루프의 종료 조건을 평가하기 전에 루프 본문을 실행한다는 뜻입니다. 즉 루프 본문은 최소 한 번은 반드시 실행됩니다.
 
 ```javascript
 do {
@@ -31,14 +31,14 @@ do {
 ```
 
 #### 3.6.3 while 문
-while 문은 **평가 후 루프**입니다. 평가 후 루프라는 말은 루프 본문을 실행하기 전에 종료 조건을 평가한다는 뜻입니다. 따라서 루프 본문을 단 한 번도 실행하지 않을 수도 있습니다.
+while 문은 **평가 후 루프** 입니다. 평가 후 루프라는 말은 루프 본문을 실행하기 전에 종료 조건을 평가한다는 뜻입니다. 따라서 루프 본문을 단 한 번도 실행하지 않을 수도 있습니다.
 
 ```javascript
 while(expression) statement
 ```
 
 #### 3.6.4 for 문
-for 문 역시 평가 후 루프입니다. 
+for 문 역시 평가 후 루프입니다.
 
 ```javascript
 for (initialization; expression; post-loop-expression) statement
@@ -61,7 +61,7 @@ console.log(i);
 for (property in expression) statement
 ```
 
-for 문과 마찬가지로 for-in 문 역시 제어부에서 반드시 var 키워드를 써야 하는 건 아니지만 **지역 변수를 이용하게끔 var 키워드를 쓰는 편**이 좋습니다.
+for 문과 마찬가지로 for-in 문 역시 제어부에서 반드시 var 키워드를 써야 하는 건 아니지만 **지역 변수를 이용하게끔 var 키워드를 쓰는 편** 이 좋습니다.
 
 ```javascript
 for (var propName in window) {
@@ -102,8 +102,8 @@ for (var i = 1; i < 10; i++) {
 alert(num); // 4
 ```
 
-continue 문은 루프를 즉시 빠져나가긴 하지만 루프 실행은 계속됩니다. 
-   
+continue 문은 루프를 즉시 빠져나가긴 하지만 루프 실행은 계속됩니다.
+
 ```javascript
 var num = 0;
     for (var i = 1; i < 10; i++) {
@@ -128,7 +128,7 @@ continue 문은 개발자의 의도를 파악하기 어렵게 만들어 디버�
 with (expression) statement;
 ```
 
-with 문의 원래 의도는 다음과 같이 특정 객체를 코드에서 매우 자주 참조할 때 편라하게 작성하자는 것이었습니다. 
+with 문의 원래 의도는 다음과 같이 특정 객체를 코드에서 매우 자주 참조할 때 편라하게 작성하자는 것이었습니다.
 
 ```javascript
 var qs = location.search.substring(1);
@@ -208,7 +208,7 @@ function sayHi(name, message) {
 
 #### 3.7.1 매개변수의 이해
 
-- 매개변수를 한 개, 세 개, 또는 아예 넘기지 않더라도 인터프리터는 이를 에러로 간주하지 않습니다. 
+- 매개변수를 한 개, 세 개, 또는 아예 넘기지 않더라도 인터프리터는 이를 에러로 간주하지 않습니다.
 - ECMAScript의 매겨변수가 내부적으로는 배열로 표현되기 때문입니다.
 - 배열처럼 동작하기는 하지만 Array의 인스턴스는 아닙니다.
 - 함수는 arguments라는 객체를 하나 갖는데, 이 객체를 통해 매개변수의 값에 접근할 수 있습니다.
@@ -285,4 +285,3 @@ var result = addSomeNumber(100); // 300
 - 스트릭트 모드는 자바스크립트에서 에러가 자주 생기는 부분에 몇 가지 제약을 가한 겁니다.
 - ECMAScript의 함수는 다른 언어의 함수와 다르게 동작합니다.
 - 값을 반환하지 않는 함수는 사실 특별한 값 undefined를 반환합니다.
-
