@@ -6,6 +6,8 @@ categories: [css]
 comments: false
 ---
 
+![아래 코드를 이용한 모습]({{site.url}}/{{site.baseurl}}img/post-assets/selector-range.PNG)
+
 > “select the 7th element, then every element after that.”
 
 ```css
