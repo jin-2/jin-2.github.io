@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "책요약 - Maintainalble JavaScript 3"
-excerpt: "스타일 가이드라인(변수, 함수, 연산)에 대한 내용 정리"
-categories: [js]
+title: "스타일 가이드라인(변수, 함수, 연산)"
+excerpt: "책요약"
+categories: [Book - Maintainalble JavaScript]
 comments: false
 ---
 

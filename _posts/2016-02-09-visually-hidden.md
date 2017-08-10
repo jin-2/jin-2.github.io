@@ -4,7 +4,6 @@ title: "접근성을 지키며 텍스트를 숨기는 방법"
 excerpt: "기술에 사용된 속성에 대한 이해"
 categories: [css]
 comments: false
-published: false
 ---
 
 # 접근성을 지키며 텍스트를 숨기는 방법

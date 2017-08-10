@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "책요약 - JavaScript for Web Developers 6"
-excerpt: "참조타입(Array) 내용 정리"
-categories: [js]
+title: "참조타입(Array)"
+excerpt: "책요약"
+categories: [Book - JavaScript for Web Developers]
 comments: false
 ---
 

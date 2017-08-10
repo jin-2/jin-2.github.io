@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "책요약 - Maintainalble JavaScript 1"
-excerpt: "스타일 가이드라인(들여쓰기, 이름규칙, 리터럴 값)에 대한 내용 정리"
-categories: [js]
+title: "스타일 가이드라인(들여쓰기, 이름규칙, 리터럴 값)"
+excerpt: "책요약"
+categories: [Book - Maintainalble JavaScript]
 comments: false
 ---
 

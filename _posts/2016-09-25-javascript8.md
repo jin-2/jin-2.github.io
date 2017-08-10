@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "JavaScript for Web Developers(8): 참조타입 - Function"
+title: "참조타입(Function)"
 excerpt: "책요약: 선언문, 표현식, 내부 구조(arguments, this, caller), 프로퍼티와 메서드"
-categories: [js]
+categories: [Book - JavaScript for Web Developers]
 comments: false
 ---
 

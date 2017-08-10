@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "책요약 - JavaScript for Web Developers 1"
-excerpt: "HTML 속의 자바스크립트 밑줄 내용 정리"
-categories: [js]
+title: "HTML 속의 자바스크립트"
+excerpt: "책요약"
+categories: [Book - JavaScript for Web Developers]
 comments: false
 ---
 

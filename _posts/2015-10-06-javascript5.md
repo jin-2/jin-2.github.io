@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "JavaScript for Web Developers(5) - 변수와 스코프, 메모리"
+title: "변수와 스코프, 메모리"
 excerpt: "책요약: 변수의 원시 값과 참조 값, 실행 컨텍스트, 가비지 컬렉션"
-categories: [js]
+categories: [Book - JavaScript for Web Developers]
 comments: false
 ---
 

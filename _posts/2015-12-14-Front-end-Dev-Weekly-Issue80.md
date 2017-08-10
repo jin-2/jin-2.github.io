@@ -4,6 +4,7 @@ title: "스크랩: Front-end Dev Weekly - Issue 80"
 excerpt: "소식 공유"
 categories: [dev]
 comments: false
+published: false
 ---
 
 이메일로 오는 Front-end Dev Weekly - Issue 80 중 기억할 내용을 스크랩하였다.

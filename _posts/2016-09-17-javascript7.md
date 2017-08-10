@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "책요약 - JavaScript for Web Developers 7"
-excerpt: "참조타입(Date, RegExp) 내용 정리"
-categories: [js]
+title: "참조타입(Date, RegExp) 내용 정리"
+excerpt: "책요약"
+categories: [Book - JavaScript for Web Developers]
 comments: false
 ---
 

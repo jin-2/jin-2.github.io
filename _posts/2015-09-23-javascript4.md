@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "JavaScript for Web Developers(4): 문장, 함수"
+title: "문장, 함수"
 excerpt: "책요약: if, do-while, while, for, for-in, switch, 매개변수, arguments 객체"
-categories: [js]
+categories: [Book - JavaScript for Web Developers]
 comments: false
 ---
 

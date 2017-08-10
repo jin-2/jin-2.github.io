@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "책요약 - JavaScript for Web Developers 2"
-excerpt: "언의어 기초(문법, 변수, 데이터 타입) 내용 정리"
-categories: [js]
+title: "언의어 기초(문법, 변수, 데이터 타입)"
+excerpt: "책요약"
+categories: [Book - JavaScript for Web Developers]
 comments: false
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "책요약 - JavaScript for Web Developers 3"
-excerpt: "언의어 기초(연산자) 내용 정리"
-categories: [js]
+title: "언의어 기초(연산자)"
+excerpt: "책요약"
+categories: [Book - JavaScript for Web Developers]
 comments: false
 ---
 

@@ -1,8 +1,5 @@
 ---
 layout: post
-title: "Inside JavaScript(1): 실행 컨텍스트와 클로저"
-excerpt: "책요약: 실행 컨텍스트 개념과 생성 과정"
-categories: [js]
 comments: false
 ---
 
