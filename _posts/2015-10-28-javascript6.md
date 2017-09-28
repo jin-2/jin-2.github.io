@@ -181,6 +181,11 @@ length 프로퍼티의 값을 바꾸면 배열 길이가 그에 맞게 바뀌면
 #### sort()
 기본적으로 데이터를 정순, 즉 가장 작은 값이 첫 번째에 오고 가장 큰 값이 마지막에 오도록 정렬합니다. **sort() 메서드는 그대로 쓴 결과에 만족할 수 없을 때가 많으므로 '비교 함수'를 넘겨서 순서를 조절할 수 있습니다.**
 
+[MDN](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+- compareFunction (a, b)가 0보다 작은 경우 a를 b보다 낮은 색인으로 정렬합니다. 즉, a가 먼저옵니다.
+- compareFunction (a, b)가 0을 반환하면 a와 b를 서로에 대해 변경하지 않고 모든 다른 요소에 대해 정렬합니다. 참고 : ECMAscript 표준은 이러한 동작을 보장하지 않으므로 모든 브라우저 (예 : Mozilla 버전은 적어도 2003 년 이후 버전 임)가이를 존중하지는 않습니다.
+- compareFunction (a, b)가 0보다 큰 경우, b를 a보다 낮은 인덱스로 소트합니다.
+
     var sortValues = [0, 1, 5, 10, 15];
     sortValues.sort();
         
