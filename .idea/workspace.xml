@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4f11af6-61be-4a18-a5ac-868994a20924" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-10-09-javascript13-json.md" />
+    <list default="true" id="f4f11af6-61be-4a18-a5ac-868994a20924" name="Default" comment="json 정리">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-10-09-react-02.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-10-09-snippet-react.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jin-2.github.io.iws" />
@@ -26,8 +27,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-09-28-react-01.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="259">
-                <caret line="88" column="3" lean-forward="false" selection-start-line="88" selection-start-column="3" selection-end-line="88" selection-end-column="3" />
+              <first_editor relative-caret-position="243">
+                <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="20" />
                 <folding>
                   <marker date="1507453968000" expanded="true" signature="847:849" ph="{...}" />
                   <marker date="1507453968000" expanded="true" signature="1979:2085" ph="{...}" />
@@ -41,45 +42,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-10-09-javascript13-json.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-10-09-javascript13-json.md">
+      <file leaf-file-name="2017-10-09-react-02.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-10-09-react-02.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding>
-                  <marker date="1507527378000" expanded="true" signature="566:598" ph="{&quot;name&quot;: &quot;amy&quot;...}" />
-                  <marker date="1507527378000" expanded="true" signature="630:750" ph="{&quot;name&quot;: &quot;amy&quot;...}" />
-                  <marker date="1507527378000" expanded="true" signature="680:748" ph="{&quot;name&quot;: &quot;Berkeley&quot;...}" />
-                  <marker date="1507527378000" expanded="true" signature="1021:1355" ph="[...]" />
-                  <marker date="1507527378000" expanded="true" signature="1027:1162" ph="{&quot;title&quot;: &quot;Professional Javascript&quot;...}" />
-                  <marker date="1507527378000" expanded="true" signature="1091:1134" ph="[...]" />
-                  <marker date="1507527378000" expanded="true" signature="1168:1353" ph="{&quot;title&quot;: &quot;Professional Ajax&quot;...}" />
-                  <marker date="1507527378000" expanded="true" signature="1226:1325" ph="[...]" />
-                  <marker date="1507527378000" expanded="true" signature="1805:1926" ph="{&quot;title&quot;: &quot;Professional Javascript&quot;...}" />
-                  <marker date="1507527378000" expanded="true" signature="1857:1892" ph="[...]" />
-                  <marker date="1507527378000" expanded="true" signature="2101:2222" ph="{&quot;title&quot;: &quot;Professional Javascript&quot;...}" />
-                  <marker date="1507527378000" expanded="true" signature="2153:2188" ph="[...]" />
-                  <marker date="1507527378000" expanded="true" signature="2281:2511" ph="{...}" />
-                  <marker date="1507527378000" expanded="true" signature="2300:2509" ph="{...}" />
-                  <marker date="1507527378000" expanded="true" signature="2324:2360" ph="..." />
-                  <marker date="1507527378000" expanded="true" signature="2381:2406" ph="..." />
-                  <marker date="1507527378000" expanded="true" signature="2430:2460" ph="..." />
-                  <marker date="1507527378000" expanded="true" signature="2477:2503" ph="..." />
-                  <marker date="1507527378000" expanded="true" signature="2795:2916" ph="{&quot;title&quot;: &quot;Professional Javascript&quot;...}" />
-                  <marker date="1507527378000" expanded="true" signature="2847:2882" ph="[...]" />
-                  <marker date="1507527378000" expanded="true" signature="2979:3094" ph="{...}" />
-                  <marker date="1507527378000" expanded="true" signature="3031:3060" ph="[...]" />
-                  <marker date="1507527378000" expanded="true" signature="3254:3432" ph="{&quot;title&quot;: &quot;Professional Javascript&quot;...}" />
-                  <marker date="1507527378000" expanded="true" signature="3306:3341" ph="[...]" />
-                  <marker date="1507527378000" expanded="true" signature="3398:3430" ph="{...}" />
-                  <marker date="1507527378000" expanded="true" signature="3696:3857" ph="{&quot;title&quot;: &quot;Professional Javascript&quot;...}" />
-                  <marker date="1507527378000" expanded="true" signature="3748:3783" ph="[...]" />
-                  <marker date="1507527378000" expanded="true" signature="3956:4050" ph="{...}" />
-                  <marker date="1507527378000" expanded="true" signature="3986:4019" ph="{...}" />
-                  <marker date="1507527378000" expanded="true" signature="4025:4048" ph="{...}" />
-                  <marker date="1507527378000" expanded="true" signature="4054:4071" ph="//..." />
-                </folding>
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="-99">
+                <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+                <folding />
               </first_editor>
               <second_editor />
             </state>
@@ -87,6 +56,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>spre</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -133,6 +107,7 @@
         <option value="$PROJECT_DIR$/_posts/2017-01-08-javascript10.md" />
         <option value="$PROJECT_DIR$/_posts/2017-08-10-jenkins1.md" />
         <option value="$PROJECT_DIR$/_posts/2017-09-18-css-em.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-10-09-react-02.md" />
       </list>
     </option>
   </component>
@@ -161,6 +136,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,9 +155,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -595,7 +570,8 @@
       <workItem from="1505694923202" duration="1643000" />
       <workItem from="1507454372793" duration="167000" />
       <workItem from="1507526416702" duration="75000" />
-      <workItem from="1507528166236" duration="20000" />
+      <workItem from="1507528166236" duration="903000" />
+      <workItem from="1507544122796" duration="330000" />
     </task>
     <task id="LOCAL-00001" summary="젠킨스 내용 되돌리기">
       <created>1505695079215</created>
@@ -611,11 +587,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507454445264</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="json 정리">
+      <created>1507528205461</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1507528205461</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56773000" />
+    <option name="totallyTimeSpent" value="57986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -677,14 +660,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="젠킨스 내용 되돌리기" />
     <MESSAGE value="리액트 강좌 메모" />
-    <option name="LAST_COMMIT_MESSAGE" value="리액트 강좌 메모" />
+    <MESSAGE value="json 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="json 정리" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_sass/partials/_main-content.sass" />
     <entry file="file://$PROJECT_DIR$/_sass/partials/_alt-home.sass" />
     <entry file="file://$PROJECT_DIR$/_sass/_global.sass" />
     <entry file="file://$PROJECT_DIR$/_sass/_layout.scss" />
@@ -841,11 +824,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-10-09-javascript13-json.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="85">
+            <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-09-28-react-01.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="259">
-            <caret line="88" column="3" lean-forward="false" selection-start-line="88" selection-start-column="3" selection-end-line="88" selection-end-column="3" />
+          <first_editor relative-caret-position="243">
+            <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="20" />
             <folding>
               <marker date="1507453968000" expanded="true" signature="847:849" ph="{...}" />
               <marker date="1507453968000" expanded="true" signature="1979:2085" ph="{...}" />
@@ -858,44 +851,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-10-09-javascript13-json.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2017-10-09-react-02.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1507527378000" expanded="true" signature="566:598" ph="{&quot;name&quot;: &quot;amy&quot;...}" />
-              <marker date="1507527378000" expanded="true" signature="630:750" ph="{&quot;name&quot;: &quot;amy&quot;...}" />
-              <marker date="1507527378000" expanded="true" signature="680:748" ph="{&quot;name&quot;: &quot;Berkeley&quot;...}" />
-              <marker date="1507527378000" expanded="true" signature="1021:1355" ph="[...]" />
-              <marker date="1507527378000" expanded="true" signature="1027:1162" ph="{&quot;title&quot;: &quot;Professional Javascript&quot;...}" />
-              <marker date="1507527378000" expanded="true" signature="1091:1134" ph="[...]" />
-              <marker date="1507527378000" expanded="true" signature="1168:1353" ph="{&quot;title&quot;: &quot;Professional Ajax&quot;...}" />
-              <marker date="1507527378000" expanded="true" signature="1226:1325" ph="[...]" />
-              <marker date="1507527378000" expanded="true" signature="1805:1926" ph="{&quot;title&quot;: &quot;Professional Javascript&quot;...}" />
-              <marker date="1507527378000" expanded="true" signature="1857:1892" ph="[...]" />
-              <marker date="1507527378000" expanded="true" signature="2101:2222" ph="{&quot;title&quot;: &quot;Professional Javascript&quot;...}" />
-              <marker date="1507527378000" expanded="true" signature="2153:2188" ph="[...]" />
-              <marker date="1507527378000" expanded="true" signature="2281:2511" ph="{...}" />
-              <marker date="1507527378000" expanded="true" signature="2300:2509" ph="{...}" />
-              <marker date="1507527378000" expanded="true" signature="2324:2360" ph="..." />
-              <marker date="1507527378000" expanded="true" signature="2381:2406" ph="..." />
-              <marker date="1507527378000" expanded="true" signature="2430:2460" ph="..." />
-              <marker date="1507527378000" expanded="true" signature="2477:2503" ph="..." />
-              <marker date="1507527378000" expanded="true" signature="2795:2916" ph="{&quot;title&quot;: &quot;Professional Javascript&quot;...}" />
-              <marker date="1507527378000" expanded="true" signature="2847:2882" ph="[...]" />
-              <marker date="1507527378000" expanded="true" signature="2979:3094" ph="{...}" />
-              <marker date="1507527378000" expanded="true" signature="3031:3060" ph="[...]" />
-              <marker date="1507527378000" expanded="true" signature="3254:3432" ph="{&quot;title&quot;: &quot;Professional Javascript&quot;...}" />
-              <marker date="1507527378000" expanded="true" signature="3306:3341" ph="[...]" />
-              <marker date="1507527378000" expanded="true" signature="3398:3430" ph="{...}" />
-              <marker date="1507527378000" expanded="true" signature="3696:3857" ph="{&quot;title&quot;: &quot;Professional Javascript&quot;...}" />
-              <marker date="1507527378000" expanded="true" signature="3748:3783" ph="[...]" />
-              <marker date="1507527378000" expanded="true" signature="3956:4050" ph="{...}" />
-              <marker date="1507527378000" expanded="true" signature="3986:4019" ph="{...}" />
-              <marker date="1507527378000" expanded="true" signature="4025:4048" ph="{...}" />
-              <marker date="1507527378000" expanded="true" signature="4054:4071" ph="//..." />
-            </folding>
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-99">
+            <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
