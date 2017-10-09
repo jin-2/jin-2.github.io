@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4f11af6-61be-4a18-a5ac-868994a20924" name="Default" comment="json 정리">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-10-09-react-02.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-10-09-snippet-react.md" />
+    <list default="true" id="f4f11af6-61be-4a18-a5ac-868994a20924" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-10-09-react-02.md" afterPath="$PROJECT_DIR$/_posts/2017-10-09-react-02.md" />
     </list>
     <ignored path="jin-2.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,9 +45,18 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-10-09-react-02.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="-99">
-                <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-                <folding />
+              <first_editor relative-caret-position="186">
+                <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+                <folding>
+                  <marker date="1507544603000" expanded="true" signature="1098:1193" ph="{...}" />
+                  <marker date="1507544603000" expanded="true" signature="1136:1172" ph="{...}" />
+                  <marker date="1507544603000" expanded="true" signature="1263:1284" ph="{...}" />
+                  <marker date="1507544603000" expanded="true" signature="1348:1390" ph="{&quot;dummy&quot;: 'dummydummy'...}" />
+                  <marker date="1507544603000" expanded="true" signature="1453:1740" ph="{...}" />
+                  <marker date="1507544603000" expanded="true" signature="1480:1712" ph="{...}" />
+                  <marker date="1507544603000" expanded="true" signature="1511:1711" ph="..." />
+                  <marker date="1507544603000" expanded="true" signature="1524:1656" ph="//..." />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -571,7 +579,7 @@
       <workItem from="1507454372793" duration="167000" />
       <workItem from="1507526416702" duration="75000" />
       <workItem from="1507528166236" duration="903000" />
-      <workItem from="1507544122796" duration="330000" />
+      <workItem from="1507544122796" duration="476000" />
     </task>
     <task id="LOCAL-00001" summary="젠킨스 내용 되돌리기">
       <created>1505695079215</created>
@@ -594,11 +602,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507528205461</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="react action, reducer 공부하다 메모">
+      <created>1507544484960</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1507544484960</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57986000" />
+    <option name="totallyTimeSpent" value="58132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -661,7 +676,8 @@
     <MESSAGE value="젠킨스 내용 되돌리기" />
     <MESSAGE value="리액트 강좌 메모" />
     <MESSAGE value="json 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="json 정리" />
+    <MESSAGE value="react action, reducer 공부하다 메모" />
+    <option name="LAST_COMMIT_MESSAGE" value="react action, reducer 공부하다 메모" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -854,9 +870,18 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-10-09-react-02.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="-99">
-            <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-            <folding />
+          <first_editor relative-caret-position="186">
+            <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+            <folding>
+              <marker date="1507544603000" expanded="true" signature="1098:1193" ph="{...}" />
+              <marker date="1507544603000" expanded="true" signature="1136:1172" ph="{...}" />
+              <marker date="1507544603000" expanded="true" signature="1263:1284" ph="{...}" />
+              <marker date="1507544603000" expanded="true" signature="1348:1390" ph="{&quot;dummy&quot;: 'dummydummy'...}" />
+              <marker date="1507544603000" expanded="true" signature="1453:1740" ph="{...}" />
+              <marker date="1507544603000" expanded="true" signature="1480:1712" ph="{...}" />
+              <marker date="1507544603000" expanded="true" signature="1511:1711" ph="..." />
+              <marker date="1507544603000" expanded="true" signature="1524:1656" ph="//..." />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
