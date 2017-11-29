@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "JSON"
-excerpt: ""
-categories: [js]
+excerpt: "책요약"
+categories: [Book - JavaScript for Web Developers]
 comments: false
 ---
 
