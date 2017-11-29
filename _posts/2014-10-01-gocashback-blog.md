@@ -4,7 +4,7 @@ title: "Gocashback Korea Blog"
 excerpt: "블로그 페이지"
 categories: [work]
 comments: false
-published: false
+# published: false
 ---
 
 고캐쉬백 코리아 블로그입니다.
